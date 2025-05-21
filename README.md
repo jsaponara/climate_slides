@@ -1,4 +1,4 @@
 # climate_slides
 
-(version 4b)[v4b]
+[version 4b](v4b)
 

@@ -1,0 +1,929 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Let's talk climate</title>
+
+    <link rel="stylesheet" href="revealjs/dist/reset.css">
+    <link rel="stylesheet" href="revealjs/dist/reveal.css">
+    <link rel="stylesheet" href="revealjs/dist/theme/black.css">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="revealjs/plugin/highlight/monokai.css">
+
+    <link rel="stylesheet" href="npm/katex@0.13.3/revealjs/revealjs/dist/katex.min.css" integrity="sha384-ThssJ7YtjywV52Gj4JE/1SQEDoMEckXyhkFVwaf4nDSm5OBlXeedVYjuuUd0Yua+" crossorigin="anonymous">
+    <script defer type="application/javascript" src="npm/katex@0.13.3/revealjs/revealjs/dist/katex.min.js" integrity="sha384-Bi8OWqMXO1ta+a4EPkZv7bYGIes7C3krGSZoTGNTAnAn5eYQc7IIXrJ/7ck1drAi" crossorigin="anonymous"></script>
+    <script defer type="application/javascript" src="npm/katex@0.13.3/revealjs/revealjs/dist/contrib/mhchem.min.js" integrity="sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M" crossorigin="anonymous"></script>
+    <script defer type="application/javascript" src="npm/katex@0.13.3/revealjs/revealjs/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+<section ><pre >let's talk climate
+
+a 30-minute footprint-free introduction to basic concepts of
+   climate change
+followed by discussion
+slides [will be!] available online at wetalkclimate.org</pre><aside class="notes"><pre ></pre></aside></section>
+<section ><pre >this is not a talk about reducing ur carbon footprint
+
+it's good to do, both for climate reasons and for health
+   reasons
+but there are other more imPORTant ways to fight climate
+   change</pre><aside class="notes"><pre ></pre></aside></section>
+<section ><pre >this talk is based on science
+
+i'm actually a software developer, but i did get a BA in
+   physics, MS in energy, and PhD in ecology LONG ago
+but i'd love to hear about anything that's wrong or unclear
+   in this talk.</pre><aside class="notes"><pre ></pre></aside></section>
+<section ><pre >anything at all, interrupt me
+
+i might defer it to the discussion or to email
+but really interrupt, if u see someone raise their hand,
+   call out!
+anything you think of later, email me at
+   john@wetalkclimate.org
+youll see that address again later, and it's on the handout</pre><aside class="notes"><pre ></pre></aside></section>
+<section ><pre >apols, i'll be showing lots of slides too briefly to absorb them
+
+so that we can touch upon many topics
+we can come back to any slide during the discussion to
+   consider it more fully</pre><aside class="notes"><pre ></pre></aside></section>
+<section ><pre >big points
+
+- climate change is real
+- climate change is serious
+- climate change is stoppable
+and i hope to convey some of the major concepts so you can
+   more confidently spread the word.</pre><aside class="notes"><pre ></pre></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nyt-wildfireLaJan25-altadena_beforeNafter.png"></img><p style="font-size:0.5em"><a href="https://www.nytimes.com/interactive/2025/01/08/weather/los-angeles-fire-maps-california.html">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >climate change is in the news more and more often, as with the wildfires in los angeles</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/arrhenius1896-p1.png"></img><p style="font-size:0.5em"><a href="https://images.fineartamerica.com/images-medium-large-5/herschel-infrared-light-experiments-science-photo-library.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but climate change is not a new idea</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/herschel-infrared-light-experiments-science-photo-library.jpg"></img><p style="font-size:0.5em"><a href="https://images.fineartamerica.com/images-medium-large-5/herschel-infrared-light-experiments-science-photo-library.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >in 1800, Herschel discovered using a prism and thermometers that the warmest color of "light" lay in the darkness beyond the red end of the spectrum; what we now call "infrared light" they called 'radiant heat'</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/fourier1824-p1.png"></img><p style="font-size:0.5em"><a href="https://github.com/hakimel/reveal.js/issues/490">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >in the 1820s Fourier intuited that Earth, at its distance from the Sun, would be much colder without an atmosphere.  Just HOW much colder we didnt know until...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/Tyndalls_setup_for_measuring_radiant_heat_absorption_by_gases_annotated.svg"></img><p style="font-size:0.5em"><a href="https://zenodo.org/records/1431217">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the 1850's, when Tyndall measured the IR-absorbing effect of several gases, and understood that without these "greenhouse gases" the oceans would be frozen solid.  the main greenhouse gas is "co2", carbon dioxide.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/arrhenius1896-p1.png"></img><p style="font-size:0.5em"><a href="https://images.fineartamerica.com/images-medium-large-5/herschel-infrared-light-experiments-science-photo-library.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >in 1896, the prominent chemist Arrhenius predicted that co2 from the burning of fossil fuels would eventually cause global warming which, being from Sweden, he thought would be great; but few scientists agreed, saying the OCeans would absorb all the extra co2, and indeed the oceans DO have the capacity to absorb ALL our co2, but...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/suess1955.png"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/History_of_climate_change_science">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >by the mid-1950's Suess showed that there's a limit to how FAST the oceans can absorb co2</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/keeling-1960-p1.png"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/History_of_climate_change_science">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and by 1960 Keeling demonstrated that the level of CO2 in the atmosphere was in fact rising.  so we cudnt measure the co2 in the atmosphere until we were in the SPACE race!</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/Atmosphere_gas_proportions.svg"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/Atmosphere_of_Earth#/media/File:Atmosphere_gas_proportions.svg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the reason it took so long is cuz the concentration of co2 is really low.  that preindustrial co2 level that kept the oceans from freezing was just ~1/36 of 1% of all the gases in the atmosphere, just 280 parts in a million.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/climate.gov-CO2_emissions_vs_concentrations_1751-2022.png"></img><p style="font-size:0.5em"><a href="https://doi.org/10.1029/2006GL026152">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >yet we've turned that dial from 280ppm past 420, a 50% rise</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/noaa.gov-ClimateDashboard-atmospheric-carbon-dioxide-image-paleo-20240405-1400px.png"></img><p style="font-size:0.5em"><a href="https://gml.noaa.gov/ccgg/trends/global.html">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >which hasn't happened in at least 800,000 years</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/Atmosphere_gas_proportions.svg"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/Atmosphere_of_Earth#/media/File:Atmosphere_gas_proportions.svg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >so we have this gas so powerful that it keeps the oceans liquid even tho it's just a tiny sliver of the atmosphere; then we crank that gas up by 50%; shouldnt we expect the climate to THEREfore get warmer?  actually no, not from what we've seen so far!</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/noaa-climateModels-AtmosphericModelSchematic.png"></img><p style="font-size:0.5em"><a href="https://www.climate.gov/maps-data/climate-data-primer/predicting-climate/climate-models">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >earth's climate is a complex system, so adding co2 likely has many effects, and we need computer models to estimate the NET effect of adding co2</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/cbrief-modelProjections-stacked.png"></img><p style="font-size:0.5em"><a href="https://www.carbonbrief.org/analysis-how-well-have-climate-models-projected-global-warming/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the models have been pretty accurate in predicting gmt: the 1975 prediction got carried away, but subsequent predictions contained observations almost entirely within the predicted range.  but even the latest models have known issues and errors, which highlight areas of poor understanding, and serve to focus data collection</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-eyesOnTheEarth-satTracks.png"></img><p style="font-size:0.5em"><a href="https://eyes.nasa.gov/apps/earth/#/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >climate models need lots of data for input and to check the output.  most of the data i'll show comes from satellites monitored by nasa and noaa, ...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-dataByAir-vanilla_preparing_for_takeoff.webp"></img><p style="font-size:0.5em"><a href="https://www.nasa.gov/earth-and-climate/nasa-is-helping-fly-drones-in-the-arctic-heres-what-that-means-for-sea-ice-and-sea-level-change/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but theyre verified by many air-based,</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/reacchpna-co2FluxMeter-Eddytower.jpg"></img><p style="font-size:0.5em"><a href="https://www.reacchpna.org/greenhouse-gas-monitoring">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >land-based,</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/ucsd-argoStatus-asOf20240831-map-statusbig.gif"></img><p style="font-size:0.5em"><a href="https://argo.ucsd.edu/about/status/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >ocean-based,</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/learnz.org.nz-antarticaIceCoring-b-an184-06-antarctica-239275922.jpg"></img><p style="font-size:0.5em"><a href="http://www.learnz.org.nz/sites/learnz.org.nz/files/b-si154-d03-09.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and even ice-based measurements</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/noaa-globalClimateDashboard.png"></img><p style="font-size:0.5em"><a href="https://www.climate.gov">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >this talk leans heavily on the awesome climate resources of noaa and nasa, which i hope remain available in the new admin</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-vitalSigns-GlobalTemp.svg"></img><p style="font-size:0.5em"><a href="https://climate.nasa.gov/vital-signs/global-temperature/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the kind of data we most directly experience is surface temperature, but it's very variable year-to-year because atmospheric temps depend alot on how the ocean behaves</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-oceanicNinoIndex.png"></img><p style="font-size:0.5em"><a href="https://svs.gsfc.nasa.gov/30847">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >for example every few years the pacific ocean...u cud say "burps" out some excess heat in the form of an el niño</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nytimes-earthHeatAccum-byRealm.png"></img><p style="font-size:0.5em"><a href="https://www.nytimes.com/2024/01/31/learning/lesson-plans/teach-about-climate-change-with-30-graphs-from-the-new-york-times.html">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and since the oceans hold HUGEly more heat than the atmosphere,</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/science.org-oceanHeatAbsorption.png"></img><p style="font-size:0.5em"><a href="https://www.science.org/doi/10.1126/science.aav7619">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and absorb !90% of all the excess heat trapped by greenhouse gases...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-vitalSigns-ocean_heat.png"></img><p style="font-size:0.5em"><a href="https://climate.nasa.gov/vital-signs/ocean-warming/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >ocean heat is a more reliable measure of global warming, and that's been rising steadily</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-vitalSigns-LandIceGreenland.png"></img><p style="font-size:0.5em"><a href="https://climate.nasa.gov/vital-signs/ice-sheets/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >ice sheets have lost mass, both the greenland ice sheet</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-vitalSigns-LandIceAntarctica.png"></img><p style="font-size:0.5em"><a href="https://climate.nasa.gov/vital-signs/ice-sheets/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and the antarctic ice sheet</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-vitalSigns-SeaLevel.png"></img><p style="font-size:0.5em"><a href="https://climate.nasa.gov/vital-signs/sea-level/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and thus sea level is rising</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/bbc-shiftMeanNewExtremes.png"></img><p style="font-size:0.5em"><a href="https://leahy.substack.com/p/americas-whipsaw-weather-future">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but climate change isnt just a parade of predictable trends.  a new mean temperature causes new heat extremes; but we know from experience that we still get extreme cold, so warming isnt the whole story...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/arrhenius1896-p1.png"></img><p style="font-size:0.5em"><a href="https://images.fineartamerica.com/images-medium-large-5/herschel-infrared-light-experiments-science-photo-library.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >we have added enough energy to the earth system to cause a measurable warming GLOBally--for a long time scientists thought this was impossible.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikip-tntEquiv-totalGlobalNuclearArsenal.png"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/TNT_equivalent">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but by the power of greenhouse gases, we're adding the energy equivalent of detonating all the world's nuclear weapons 8x...every day.  all that extra energy doesnt just change the mean temperature; it also drives greater variability and thus more extremes in both directions</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/noaa-PolarVortex_Feb2021_620.jpg"></img><p style="font-size:0.5em"><a href="https://www.climate.gov/news-features/understanding-climate/understanding-arctic-polar-vortex">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >for example, that extra energy can disrupt the polar vortex, causing a wavy jet stream and bringing arctic winds down to our temperate latitudes.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/metOffice-co2SincePreindustrial-41457818-9445667-image-a-1_1617810798728.jpg"></img><p style="font-size:0.5em"><a href="https://www.weforum.org/agenda/2021/03/met-office-atmospheric-co2-industrial-levels-environment-climate-change/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >to restore a sane climate, you might think we need to return to the preindustrial 280ppm; good news: we just need to get back to the 1987 level of 350ppm</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/noaa-globalCo2Trends.png"></img><p style="font-size:0.5em"><a href="https://gml.noaa.gov/ccgg/trends/global.html">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but co2 is at 423ppm and rising over 2ppm yearly.  so first we need to stop emitting co2 [and the other greenhouse gases ].</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/drawdown-ghgSources-2023.png"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/Greenhouse_gas_emissions">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >HOW are we emitting?  via agriculture, construction, and industry, but mostly by burning fossil fuels for energy.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/drawdown-netzero-DrawdownRoadmap_KeyGraphics04_2x.png"></img><p style="font-size:0.5em"><a href="https://drawdown.org/drawdown-roadmap">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >do we really need to STOP emitting, or can we just reach "net zero"?  net zero is the idea that we could keep emitting co2 if we just absorb enough to match what we emit, via so called 'carbon dioxide removal' methods.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/cdr-methods-SoCDR-2Ed-Fig-14-for-website.png"></img><p style="font-size:0.5em"><a href="https://www.stateofcdr.org/s/SoCDR-2Ed-Fig-14-for-website.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >there are many such methods, but few are ready to deploy at scale, and the MOST READY methods are the LEAST PERMANENT</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/cdr-mostlyConventional-SoCDR.png"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/Carbon_dioxide_removal">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >current deployment is almost entirely growing trees, which absorb just 2b of the 50b tons emitted globally each year.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikipedia-Blank_map_of_the_United_States-327011901-lower48-NMgreen-seeThruBkgd.PNG"></img><p style="font-size:0.5em"><a href="https://climate.mit.edu/ask-mit/how-many-new-trees-would-we-need-offset-our-carbon-emissions">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >it would take a forest the size of New Mexico to absorb just one year of US emissions [and most of the country is too dry for forests to grow]</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/usda-njPineBarrens.jpg"></img><p style="font-size:0.5em"><a href="https://www.nrcs.usda.gov/sites/default/files/styles/hero/public/2022-10/New%20Jersey%20Pine%20Barrens%20%28forest%29.jpeg?h=b1648dc4&itok=49XzUFK_">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >forests are all kinds of awesome, and are key to addressing the biodiversity crisis, and we absolutely should stop cutting mature forest, but we will not reach net zero by growing more trees.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/cdr-methods-SoCDR-2Ed-Fig-14-for-website.png"></img><p style="font-size:0.5em"><a href="https://www.stateofcdr.org/s/SoCDR-2Ed-Fig-14-for-website.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the wider lesson is that once carbon is released into the atmosphere, it is technically difficult and really costly to collect and store it.  because we're taking really concentrated stuff, tripling its weight, and scattering it to the four winds, so of course it's gonna be expensive to collect again.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/drawdown-ghgSources-2023.png"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/Greenhouse_gas_emissions">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the term "net zero" suggests that maybe we don't need to stop burning fossil fuels, but we do, because they are the only emissions that we today are ready to replace at scale</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/grandrapidsmiDotGov-mitigation-vs-adaptation.jpg"></img><p style="font-size:0.5em"><a href="https://www.grandrapidsmi.gov/Government/Departments/Sustainability/Climate-Change">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but before we talk about alternatives, do we really need to reduce co2 emissions, so called mitigation?  cant we aDAPT to future extremes via climate "resilience"?  can't we be...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/fineartamerica-njStrongerThanTheStorm.png"></img><p style="font-size:0.5em"><a href="https://fineartamerica.com/featured/new-jersey-stronger-than-storm-after-hurricane-sandy-john-rizzuto.html?product=canvas-print">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >..."stronger than the storm"?</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-leakingBoat.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >if our boat is leaking, mitigation is like shrinking the hole, whereas adaptation is like bucketing out the water--it keeps us afloat without fixing the problem.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/petapixel-hurrIan-hurricaneianfeature-800x420.jpg"></img><p style="font-size:0.5em"><a href="https://petapixel.com/2022/09/29/images-from-space-and-earth-show-the-terrifying-power-of-hurricane-ian/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >if we fail to mitigate, future extremes will swamp all our resilience measures, esp in the most vulnerable places.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nytimes-usClimateRisksByCounty-interactive.png"></img><p style="font-size:0.5em"><a href="https://www.nytimes.com/2024/01/31/learning/lesson-plans/teach-about-climate-change-with-30-graphs-from-the-new-york-times.html">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and there are really no invulnerable places, no 'climate havens'</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/e360-valenciaSpainFloodAftermath-GP0SU37PA.jpg"></img><p style="font-size:0.5em"><a href="https://e360.yale.edu/digest/extreme-weather-photos#:~:text=aftermath%20of%20floods%20in%20Valencia%2C%20Spain">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >even past extremes of hurricane winds and flooding would overwhelm planned resilience measures.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/climateCentral-2020Drought_en_title_lg.jpg"></img><p style="font-size:0.5em"><a href="https://www.climatecentral.org/graphic/vulnerability-to-drought">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and how will food-growing regions--in the US, China and elsewhere--aDAPT to chronic drought?</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/ncei-bigDisastersByYearUS.png"></img><p style="font-size:0.5em"><a href="https://www.ncei.noaa.gov/access/billions/time-series">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >resilience measures _will_ reduce the impact of extreme events, but they are no substitute for mitigation--we need to stop expanding the hole in our boat by emitting co2, increasing the number and cost of "natural" disasters.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-eei-toa-netAbsorbed.jpg"></img><p style="font-size:0.5em"><a href="https://www.climatecentral.org/graphic/heat-trapping-pollution-2024?graphicSet=Annual+CO2+Peak+and+Temperature&location=national&lang=en">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and when we REACH zero emissions, earth's warming will finally start to slow, and eventually stop when earth WARMS to the point that it radiates enough IR energy to restore the balance; but so far our net absorbed (incoming minus outgoing's) has doubled this century, from 0.6 watts per sqare meter in 2009 to 1.1 in 2019.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/climatecentral-GmtCo2-graph.png"></img><p style="font-size:0.5em"><a href="https://www.climatecentral.org/graphic/heat-trapping-pollution-2024?graphicSet=Annual+CO2+Peak+and+Temperature&location=national&lang=en">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but until we stop emitting, there will be no "new normal"--climate impacts will continue to worsen</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikimedia-climateConsensus-2021.svg"></img><p style="font-size:0.5em"><a href="https://commons.wikimedia.org/wiki/File:20211103_Academic_studies_of_scientific_consensus_-_global_warming,_climate_change_-_vertical_bar_chart_-_en.svg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >nearly all peer-reviewed climate articles agree that humans are causing climate change.  if ur source paints the climate consensus as controversial, it likely accepts funding from the fossil fuel industry.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/sciencedirect-erringOnTheSideOfLeastDrama.png"></img><p style="font-size:0.5em"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0959378012001215?via%3Dihub">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >not only do climatologists agree that co2 drives warming, there is good evidence that UN IPCC reports deliberately downplay the worst possibilities, especially those involving poorly understood phenomena.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/earthDotOrg-stabilityLandscapeOverTime-EarthSystemTippingPoints.jpg"></img><p style="font-size:0.5em"><a href="https://earth.org/data_visualization/tipping-points-in-the-earth-system/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >poorly understood phenomena such as so called "tipping points"--earth's climate is a "nonlinear" system, and such systems can undergo irreversible transitions.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/earthDotOrg-stabilityLandscapeOverTime-EarthSystemTippingPoints.jpg"></img><p style="font-size:0.5em"><a href="https://earth.org/data_visualization/tipping-points-in-the-earth-system/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the higher we push co2, the more energy we pump into the climate system, and the more likely such transitions become.  and some possible transitions are pretty unthinkable:</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikimedia-colombianAmazon-byRichardHardy-1440px-Walking_tree.jpg"></img><p style="font-size:0.5em"><a href="https://commons.wikimedia.org/w/index.php?curid=78906825">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- amazon rainforest transition to grassland would cause massive adDITional emissions and a tragic loss of biodiversity</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikimedia-thwaitesGlacier-1920px-Thwaites_Glacier.jpg"></img><p style="font-size:0.5em"><a href="http://www.jpl.nasa.gov/news/news.php?release=2014-148 (JPL), Public Domain, https://commons.wikimedia.org/w/index.php?curid=33763182">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- WAIS collapse would cause 13feet of additional global sea level rise over the next 1000 years</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-Global_Ocean_Circulation_GIF.png"></img><p style="font-size:0.5em"><a href="https://insideclimatenews.org/news/09022024/climate-impacts-from-collapse-of-atlantic-meridional-overturning-current-could-be-worse-than-expected/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- gulf stream collapse would cause several additional feet of sea level rise for the US east coast, and practically eliminate agriculture in europe, this century</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/ourworldindata-emissionsScenarios2100.webp"></img><p style="font-size:0.5em"><a href="https://ourworldindata.org/co2-and-greenhouse-gas-emissions?insight=current-climate-policies-will-reduce-emissions-but-not-enough-to-keep-temperature-rise-below-2c#key-insights">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >this is perhaps the area of least scientific confidence, but one thing we know: no matter how low we eventually draw co2 back down to, there is no guarantee that we can undo the global processes we set in motion at the current and future elevated levels of co2.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/earthDotOrg-stabilityLandscapeOverTime-EarthSystemTippingPoints.jpg"></img><p style="font-size:0.5em"><a href="https://earth.org/data_visualization/tipping-points-in-the-earth-system/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >right now we THINK we're in the driver's seat, but at some point, we could lose control...and not even know it.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/ember-global-electricity-mix.png"></img><p style="font-size:0.5em"><a href="https://ember-climate.org/data/data-tools/data-explorer/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >so where are we right now?  globally 60% of electricity is produced from fossil fuels</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/energyInst-p10-globalPrimaryEnergyConsumption.png"></img><p style="font-size:0.5em"><a href="https://www.energyinst.org/__data/assets/pdf_file/0004/1055542/EI_Stat_Review_PDF_single_3.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but most heating and transport is not electrified; of total energy use, ~80% is fossil fuels</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/bnef-shareOfGlobalPowerCapacityAdditionsByTech.png"></img><p style="font-size:0.5em"><a href="https://ourworldindata.org/grapher/installed-global-renewable-energy-capacity-by-technology">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >most NEW capacity is renewable [yellow is solar, light blue is wind]</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/ember_wind_and_solar_growth.png"></img><p style="font-size:0.5em"><a href="https://www.nature.com/articles/nclimate1451/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but more solar and wind dont directly impact climate; climate responds only to co2.  solar and wind help ONly to the extent that they replace fossil fuels ; an "all of the above" energy policy, one that pursues both fossil fuels and renewables, PROMOTES climate change.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/ember_wind_and_solar_growth.png"></img><p style="font-size:0.5em"><a href="https://www.nature.com/articles/nclimate1451/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >globally, energy use is growing even faster than renewables; renewables HAVE reduced fossil fuel GROWTH, such that global emissions may soon plateau.  in fact, solar is now growing faster than total energy use, so emissions are expected to decline.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/ourworldindata-cumulative-co2-emissions.svg"></img><p style="font-size:0.5em"><a href="https://ourworldindata.org/grapher/cumulative-co-emissions">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but nations don't emit equally--most of the co2 emitted since the dawn of the industrialRevolution is still in the atmosphere, warming the planet.  the rich nations have emitted most of it.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/ourworldindata-fossil-fuels-per-capita.svg"></img><p style="font-size:0.5em"><a href="https://ourworldindata.org/fossil-fuels#per-capita-where-do-people-consume-the-most-energy-from-fossil-fuels">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and even today, US emissions are twice China's per capita</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/lng_by_permit_status.png"></img><p style="font-size:0.5em"><a href="https://www.symonspa.com/post/report-status-of-u-s-lng-export-permits-and-associated-greenhouse-gas-emissions">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and that doesnt count our ballooning exports of 'lng' [liquefiedNatGas] cuz exports are counted as emissions of the importer</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/yale-climateResiliencePotential-map-withCaption.png"></img><p style="font-size:0.5em"><a href="https://climatecommunication.yale.edu/news-events/countries-and-territories-most-affected-by-climate-change-also-more-likely-to-believe-it-to-be-personally-harmful/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >we're getting ever-more-realistic previews of future extremes, which should incentivize change, but it's the lowest emitters who are hit hardest, both the lowest emitting countries in south asia and africa...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/njspotlightnews-Hoboken-Superstorm-Sandy-flooding-flood.jpg"></img><p style="font-size:0.5em"><a href="https://www.hobokengirl.com/hoboken-northwest-resiliency-park/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >...and the lowest emitting people within countries</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/CAT-Graclimateactiontracker-climateFinanceGap-phic-Methodology-ClimateFinanceGaps.width-777.png"></img><p style="font-size:0.5em"><a href="https://climateactiontracker.org/countries/usa/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the nations that have historically polLUTed the most are the wealthiest, and thus are most able to transition.  These nations must choose either to pretend all nations are equally able to reduce emissions, and we'll all exert equal effort, or spend more so that all nations together attain the 1.5 goal.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/climateactiontracker-us-nov2024-domesticOnly.png"></img><p style="font-size:0.5em"><a href="https://climateactiontracker.org/countries/usa/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the US has pledged to do almost enough for the planet to hit 1.5 degrees of warming, if all nations reduce emissions in concert... but poorer less polluting nations cannot afford clean energy without help; without more of that 'climate finance'...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/climateactiontracker-us-nov2024.png"></img><p style="font-size:0.5em"><a href="https://climateactiontracker.org/countries/usa/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >we are looking at nearly 3C by century's end.  from our models we can compute that number, but no one really knows what it would be like to live in that world.  but today's teenagers will see it.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/rmi-cleantechCostsFalling.png"></img><p style="font-size:0.5em"><a href="https://rmi.org/wp-content/uploads/dlm_uploads/2024/06/RMI_cleantech_revolution.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >won't capitalism fix climate?  solar, wind, and more recently battery prices have plummetted, but the major players, the fossil fuel industry and the electric utilities, have not responded.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nytViaCarboncommentary-ExxonAlgaeAd.jpg"></img><p style="font-size:0.5em"><a href="https://www.carboncommentary.com/blog/2018/10/26/is-the-ft-right-to-carry-misleading-advertisements-from-exxon">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >that's because it's more profitable to SELL fuel than to enABle folks to use FREE fuel, so fossil fuel companies deCIDed to offer false solutions like "carbon capture" and biofuels</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/theguardian-misleadingFossilAds.avif"></img><p style="font-size:0.5em"><a href="https://www.theguardian.com/environment/2021/nov/18/the-forgotten-oil-ads-that-told-us-climate-change-was-nothing">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and to misLEAD the public on the SCIence of climate change, first calling it 'lies', and more recently 'unsettled'</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikipedia-Grand_Coulee_Dam_spillway.jpg"></img><p style="font-size:0.5em"><a href="https://commons.wikimedia.org/w/index.php?curid=7716964">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >most electric power is provided by utility companies, which are granted a monopoly in return for serving the public interest, but whose profits are tied to the value of the infrastructure they invest in, so cheaper renewable power means lower profits for them.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wapoHeadline-threeStatesBarredUtilitiesFromChargingCustomersForLobbying.png"></img><p style="font-size:0.5em"><a href="https://www.washingtonpost.com/politics/2023/06/21/three-states-just-barred-utilities-charging-customers-lobbying/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >Utilities have actually used RATEpayer money to lobby aGAINST clean energy, a practice banned in only a FEW states.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/irena-triplingRenewablesNeedsInvestment.png"></img><p style="font-size:0.5em"><a href="https://www.irena.org/News/pressreleases/2024/Oct/Global-Goal-of-Tripling-Renewables-Needs-USD-1-point-5-Trillion-Investment-Per-Year">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >so renewables are not attracting the needed level of investment--government must step in.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/bnef-shareOfGlobalPowerCapacityAdditionsByTech.png"></img><p style="font-size:0.5em"><a href="https://ourworldindata.org/grapher/installed-global-renewable-energy-capacity-by-technology">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >as china's government has--i mentioned earlier that we've made great progress on renewables globally,</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/rmi-chinaLeadsInPatentMakeDeploy.png"></img><p style="font-size:0.5em"><a href="https://rmi.org/wp-content/uploads/dlm_uploads/2024/06/RMI_cleantech_revolution.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but in fact it's China leading the way to manufacture, deploy, and even to patent clean energy tech's, which they see as the key to future economic dominance</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/rmi-chinaLeadsInPatentMakeDeploy.png"></img><p style="font-size:0.5em"><a href="https://rmi.org/wp-content/uploads/dlm_uploads/2024/06/RMI_cleantech_revolution.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >in the last 5 yrs, China spent 300 billion on the clean technology supply chain while the US and Europe combined spent not even a tenth of that.  The InflationReductionAct [really a clean energy investment act] is only beginning to change that.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/rmi-chinaElectricIsCheap.png"></img><p style="font-size:0.5em"><a href="https://rmi.org/wp-content/uploads/dlm_uploads/2024/06/RMI_cleantech_revolution.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >in china electricity is much cheaper than gas, partly due to our fracking industry, and also due to our tariffs on chinese goods, including solar panels</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/rmi-chinaRenewableAge.png"></img><p style="font-size:0.5em"><a href="https://rmi.org/wp-content/uploads/dlm_uploads/2024/06/RMI_cleantech_revolution.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >china's stated goal is economic dominance via clean energy; however just 20% of global energy demand has been electrified, 80% has not.  So it's not too late to catch up, but we need a climate moonshot to deploy wind, solar, and storage fast enough to drive emissions to zero.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nrdc-policy-basics-fracking-FS.png"></img><p style="font-size:0.5em"><a href="https://www.greenmatters.com/p/sacrifice-zones">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >cheap fossil fuels are jeopardizing our economic future.  but why are fossil fuels so cheap in the US?  we are the leading fossil gas exporter due to a fracking boom that became possible only after the industry secured exemptions from the Clean Air Act, Clean Water Act, Safe Drinking Water Act, and other environmental laws.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/gettyViaGreenMatters-sacrificeZone-sacrifice-zone-1637162717558.webp"></img><p style="font-size:0.5em"><a href="https://www.greenmatters.com/p/sacrifice-zones">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >fossil fuel production is VERY polluting, so in order for it to be cheap it requires sacrifice zones of politically powerless people.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/propublica-sacrificeZone-20211102-toxmaps-national-15.webp"></img><p style="font-size:0.5em"><a href="https://www.propublica.org/article/toxmap-poison-in-the-air">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >had we embraced environmental justice long ago, and given these folks the voice to say 'not in my backyard, not my kids, not my community', fossil fuels wudv been priced more appropriately all along, and we might be leading the energy transition today.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/usgov-securityImplicationsOfCc.png"></img><p style="font-size:0.5em"><a href="https://obamawhitehouse.archives.gov/blog/2014/10/13/defense-department-must-plan-national-security-implications-climate-change">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the pentagon has called climate change a "threat multiplier".  most any issue you care about, climate plays a role.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/bostonUniv-centAm-climateImpacts-Chart-1-636x365.png"></img><p style="font-size:0.5em"><a href="https://www.bu.edu/gdp/2023/11/27/6-charts-on-climate-impacts-in-6-central-american-and-caribbean-countries/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >issues like immigration: much of the immigration from Central America is climate-driven</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/apnews-california-wildfire-insurance-sansPhoto.png"></img><p style="font-size:0.5em"><a href="https://apnews.com/article/california-wildfire-insurance-e31bef0ed7eeddcde096a5b8f2c1768f">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >issues like the cost of insurance: major insurers are pulling out of flood- and fire-prone areas due to "rapidly growing catastrophe exposure" as stateFarm puts it, and theyre raising rates elsewhere</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/un-mammalHabitatLoss.jpg"></img><p style="font-size:0.5em"><a href="https://www.un.org/en/climatechange/science/climate-issues/biodiversity">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >issues like biodiversity: climate change is a significant driver of species loss.  if today your issue isn't much affected by climate, just wait--the climate impact will likely grow</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-takeTheNextStep-small.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >so what can we do?  we can each take the next step along this path:</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-takeTheNextStep-small.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- we can learn enough to appreciate the urgency of the problem.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-takeTheNextStep-small.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- we CAN reduce our carbon footprint--OPtionally</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-takeTheNextStep-small.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- we can urge influencers--from parent teacher boss all the way up to senator--to go all in on halting climate change.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-takeTheNextStep-small.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- AND we can TELL OTHERS about all of the above. the learning, maybe ur doing right now.  regarding the carbon footprint...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/yale-chris-leboutillier-c7rwvgl8lpa-unsplash.jpg"></img><p style="font-size:0.5em"><a href="https://environment-review.yale.edu/youre-concerned-about-climate-change-do-your-choices-make-impact">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >reducing our carbon footprint, tho great for both our climate and for our health, IS NOT ENOUGH to address climate change--we just dont have conTROL over enough of our emissions.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/drawdown-ghgSources-2023.png"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/Greenhouse_gas_emissions">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >because we need to change not just the amount of electricity we use, but the WAY we generate electricity; and the way we heat buildings, grow food, power transit, and make building materials.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikip-United_States_Capitol_-_west_front-3602142380.jpg"></img><p style="font-size:0.5em"><a href="https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >government is how we band together, pool our resources, and solve big problems.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/cclobby-capitol_students_456x200.jpg"></img><p style="font-size:0.5em"><a href="https://citizensclimatelobby.org/blog/category/news/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >to address climate at the needed scale, we must make government work.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikip-We_Can_Do_It!.jpg"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/File:We_Can_Do_It!_NARA_535413_-_Restoration_2.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >what should we urge influencers to do?  here's a few ideas</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/endpolluterhandouts-logo.png"></img><p style="font-size:0.5em"><a href="https://www.endpolluterhandouts.org/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >we can stop subsidizing fossil fuels, says the endpolluterhandouts coalition</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/eesi-Graphic-Fossil-Fuel-Subsidies-Eliminated-Proposed-2024-Budget.png"></img><p style="font-size:0.5em"><a href="https://www.eesi.org/files/FactSheet_Fossil_Fuel_Subsidies_2024.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >yes we still actually subsidize fossil fuels, both directly thru many tax credits...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/iopDotOrg-shenangoShutdown-ErVisitsOverTime.png"></img><p style="font-size:0.5em"><a href="https://iopscience.iop.org/article/10.1088/2752-5309/ace4ea">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >. and indirectly, by not charging the industry for the health effects of air pollution, which kills 100,000 Americans each year from heart and lung disease.  we see here how ER visits dropped after a coal plant was closed in Pittsburgh.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/empowernj-fbpage-noNewFfuelProjs.png"></img><p style="font-size:0.5em"><a href="https://www.facebook.com/EmpowerNJNoFossilFuel">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >we can ban new fossil fuel infrastructure, as empowernj coalition advocates</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/globalEnergyInst-usLngTradeSince2000.png"></img><p style="font-size:0.5em"><a href="https://www.chron.com/business/energy/article/Slideshow-Five-LNG-export-terminals-now-14437665.php">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >that's right, NEW fossil fuel infra--a massive buildout of new drilling, new pipelines, and new export terminals is underway, infrastructure with a 40yr lifetime.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/empowernj-email-CSFARally.png"></img><p style="font-size:0.5em"><a href="https://www.npr.org/2025/01/07/nx-s1-5251151/meta-fact-checking-mark-zuckerberg-trump">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >we can push for the nj climate superfund act, which would charge polluters for the cost of climate disasters.  and there's much more that we can do!</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/npr-metaEndsFactChkg.png"></img><p style="font-size:0.5em"><a href="https://www.npr.org/2025/01/07/nx-s1-5251151/meta-fact-checking-mark-zuckerberg-trump">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >can democratic governments respond to global challenges in an age of disinformation?  only if informed people get involved.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-commonVision.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >to get involved, and to stay motivated and even inspired, join with others who share your vision</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-logos-all.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >choose a group, and jump into their current projects for our nation, state, and region</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikip-United_States_Capitol_-_west_front-3602142380.jpg"></img><p style="font-size:0.5em"><a href="https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and MOST importantly, ask your elected reps: how are you leading us away from fossil fuels and toward a livable climate?  always respectful, aiming for an ongoing dialogue</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-usHouse-reply-powerGrid-20240531-blur.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but "how are you leading" means you dont want to hear that theyll "keep your views in mind should relevant legislation come up"--we need leadership!  we need them to be involved in CRAFTing that relevant legislation.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/openSecrets-oilNgas-top20members.png"></img><p style="font-size:0.5em"><a href="https://www.opensecrets.org/industries/summary?code=E01&cycle=2024&ind=E01&recipdetail=M">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and consider suggesting that they refuse fossil fuel contributions because for example that money reduces our ability to compete with China</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/natureCommunications-falseSocialReality-abstract.png"></img><p style="font-size:0.5em"><a href="https://www.nature.com/articles/s41467-022-32412-y">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >studies show that climate action is more popular than the PUBLIC thinks, ...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/cupress-apsr-staffersPerceiveConstituentOpinion.png"></img><p style="font-size:0.5em"><a href="https://www.cambridge.org/core/journals/american-political-science-review/article/abs/legislative-staff-and-representation-in-congress/D7735FCF39B843B9F3269FD39362FD66">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >than congressional staffers think, ...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/natureEnergy-cleanEnergyPopularity.png"></img><p style="font-size:0.5em"><a href="https://www.nature.com/articles/s41560-024-01603-w">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and that climate action is more popular than elected reps themselves think, so they need to hear from us.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/congressfoundation-lifeInCongress-p25aWithTitle.png"></img><p style="font-size:0.5em"><a href="https://www.congressfoundation.org/storage/documents/CMF_Pubs/life-in-congress-the-member-perspective.pdf#page=30">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and reps say they enjoy contact with constituents more than any other part of their job.  so let's not keep them waiting!</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/stephClifford-serenityPrayer.png"></img><p style="font-size:0.5em"><a href="https://www.flickr.com/photos/30486689@N08/3561506286">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >you may have seen the serenity prayer: grant me the courage to change what i can, the serenity to accept what i can't, and the wisdom to know the difference.  but dont underestimate the diff btw what i can change, and what we can change...by banding together.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikip-ColorPurple.jpg"></img><p style="font-size:0.5em"><a href="https://www.raptisrarebooks.com/product/the-color-purple-alice-walker-first-edition-signed-rare-steven-spielberg/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >to paraphrase the great novelist Alice Walker: the most common way we give up our power is to assume we have none.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/climatecentral-TempForecast-2698086062.jpg"></img><p style="font-size:0.5em"><a href="https://www.pnas.org/doi/10.1073/pnas.1910114117">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >ultimately, our way of life may depend on our ability to imagine a tmw that is very different from today.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/bekahgaijin-2013-birdflu-facemasks-japan.png"></img><p style="font-size:0.5em"><a href="https://bekahgaijin.blogspot.com/2013/02/influenza-face-mask-in-japan.html">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >i recall photos of asian cities masked against bird flu and assumed it would never happen in america.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nytimes-usClimateRisksByCounty-interactive.png"></img><p style="font-size:0.5em"><a href="https://www.nytimes.com/2024/01/31/learning/lesson-plans/teach-about-climate-change-with-30-graphs-from-the-new-york-times.html">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >maybe one lesson we can take from the pandemic is how very qualitatively different tmw could be.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nbcnews-idaVictims.png"></img><p style="font-size:0.5em"><a href="https://www.nbcnews.com/news/us-news/ida-victims-what-we-know-about-those-killed-n-y-n1278469">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >regarding my own trajectory: when 29 people drowned--in nj--during the remnants of hurricane Ida in sep2021, i wanted to do...SOMEthing...</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/njdep-forestActionPlanRoadmap-roadmap-3369487440.png"></img><p style="font-size:0.5em"><a href="https://www.nj.gov/dep/parksandforests/forest/njsfap/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >then during 2022 at a NJ Forest Task Force [which was open to the public] I heard foresters and hunters, folks who LOVE the outdoors, talk about climate as just another management objective, optimizing carbon to store alongside lumber to cut, or game to hunt.</p></aside></section>
+<section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-eei.jpg"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/Earth's_energy_budget">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >so I set out to better understand climate change so I could convey the urgency.</p></aside></section>
+<section ><pre >either way, our future is extreme
+
+either an increasingly hellish climate and spending ever
+   more on disaster relief, "resilience", and border
+   security,
+or an economy fundamentally reorganized, based on clean
+   energy.
+but together we can restore our climate--and doing it neednt
+   be a chore...
+maybe we can even USE climate change as a motivator to
+   become healthier, to enjoy the fulfillment of working
+   with others twd a common goal, and to engage with
+   government as more active citizens.
+it is urgent that we find ways to make these facets of life
+   enJOYable...for the whole family!
+so i hope you find a way to act.</pre><aside class="notes"><pre ></pre></aside></section>
+<section ><pre >to sum up...
+
+<div ><div ><p style="margin:0;padding:0">greenhouse gases are powerful, and we've increased them alot</p><p style="margin:0;padding:0">- we've long known that greenhouse gases keep the oceans from freezing</p><p style="margin:0;padding:0">- even tho greenhouse gases are just a sliver of the atmosphere</p></div><div ><p style="margin:0;padding:0">scientists agree that our greenhouse gas additions are causing climate change</p><p style="margin:0;padding:0">- our models have accurately predicted the pace of warming</p><p style="margin:0;padding:0">- data show the oceans absorb most of the excess heat</p><p style="margin:0;padding:0">- extra energy fuels more extremes and variability</p></div><div ><p style="margin:0;padding:0">to restore our climate, we need to stop burning fossil fuels</p><p style="margin:0;padding:0">- to restore the climate, we need to reduce greenhouse gas emissions</p><p style="margin:0;padding:0">- and we emit mainly by burning fossil fuels</p><p style="margin:0;padding:0">- but CDR is difficult and expensive, best to not emit [and not clearcut!]</p><p style="margin:0;padding:0">- so "net zero" really means zero emissions</p><p style="margin:0;padding:0">- resilience helps, but is no substitute for mitigation</p><p style="margin:0;padding:0">- until we reach zero emissions, there will be no so called "new normal"</p><p style="margin:0;padding:0">- climate scientists are nearly unanimous on these basics</p><p style="margin:0;padding:0">- tipping points: no guarantee that we can undo what we set in motion</p></div><div ><p style="margin:0;padding:0">so we need to move our government to enact a climate moonshot to replace fossil fuels</p><p style="margin:0;padding:0">- nations are not doing enough to stay below 2C, let alone 1.5</p><p style="margin:0;padding:0">- capitalism won't fix climate because renewables, tho cheaper, are less profitable</p><p style="margin:0;padding:0">- climate will continue to worsen many problems</p><p style="margin:0;padding:0">- oppose subsidies and LNG buildout; support renewables</p><p style="margin:0;padding:0">- join with others</p><p style="margin:0;padding:0">- dialogue with your reps, they need to hear from you</p></div></div></pre><aside class="notes"><pre ></pre></aside></section>
+<section ><pre >topics in these slides; this talk included the purple ones
+
+<div style="column-count: 3;"><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/185" title="health effects of air pollution">air quality & health</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/158" title="attribution: how much does climate explain?">attribution</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/190" title="Battery minerals are not the new oil">battery minerals</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/103" title="beyond carbon footprint">beyond footprint</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/80" title="capitalism won't fix climate because renewables, tho cheaper, are less profitable">capitalism</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/162" title="CDR vs CCS (carbon capture and storage)">ccs vs cdr</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/161" title="carbon capture and storage ("CCS"): the Petra Nova example">ccs: petra nova</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/86" title="*our economic future is threatened by china's clean tech lead*">china clean tech lea</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/77" title="nations are not doing enough to stay below 2C, let alone 1.5">climate finance gap</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/91" title="*climate justice--eg cleaning up sacrifice zones--would help us catch up*">climate justice</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/163" title="key insight is that burning fossil fuels causes "climate pollution"">combustion chemistry</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/20" title="data show the oceans absorb most of the excess heat">data sources</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/117" title="dialogue with your reps, they need to hear from you">dialogue with rep</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/176" title="doomism is the new denial">doomism</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/144" title="electromagnetic spectrum">e-m spectrum</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/175" title="el niño occurs atop a higher global mean temperature">el niño</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/72" title="*climate incentives mount, but the lowest emitters are the most vulnerable*">emissions equality</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/40" title="and we emit mainly by burning fossil fuels">emissions sources</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/192" title="the sun is the energy source that drives earth's climate">energy balance 1</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/193" title="energy balance">energy balance 2</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/189" title="how should we source energy?">energy sources</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/149" title="ethanol">ethanol</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/181" title="five key facts that everyone should know">five key facts</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/177" title="floodwaters ain't just water">floodwater contamina</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/183" title="carbon footprint, but don't stop there">footprint optional</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/186" title="the fossil fuel industry">fossil fuel industry</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/167" title="types of geoengineering">geoengineering types</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/166" title="geoengineering: might Solar Radiation Management (SRM) help?">geoengineering/srm</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/14" title="even tho greenhouse gases are just a sliver of the atmosphere">ghgas effect at low </a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/156" title="climate is complex">ghgas net effect is </a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/143" title="ghgases triple the energy we get from the sun">ghgases triple sun's</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/38" title="to restore the climate, we need to reduce greenhouse gas emissions">goal: 350ppm</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/7" title="we've long known that greenhouse gases keep the oceans from freezing">history of the scien</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/168" title="hoboken">hoboken</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/147" title="is hydrogen the answer?">hydrogen</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/188" title="what difference can my presence make?">impact of activism</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/172" title="In other nations, the projections are yet worse">impacts future int'l</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/170" title="NASA projections of global climate change in the US:">impacts: future</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/171" title="impacts">impacts: now and lat</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/173" title="previously obscure phenomena">impacts: obscure</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/169" title="Already...">impacts: past and pr</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/174" title="and unprecedented events are happening--they dont yet have names">impacts: unprecedent</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/187" title="can one person make a difference?">individual's impact</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/115" title="join with others">join with others</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/179" title="limits of human lungs">lung limits</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/34" title="extra energy fuels more extremes and variability">mean vs variability</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/180" title="mitigation is cheaper than repeated recovery">mitigation vs recove</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/48" title="resilience helps, but is no substitute for mitigation">mitigation vs resili</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/18" title="our models have accurately predicted the pace of warming">modeling net effect </a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/164" title="more CCS science">more CCS science</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/157" title="more about models">more on models</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/140" title="the current climate change is not natural">natural variation</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/47" title="so "net zero" really means zero emissions">net zero means zero</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/42" title="but CDR is difficult and expensive, best to not emit [and not clearcut!]">net zero: cdr</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/41" title=""net zero" suggests we don't need to stop burning fossil fuels">net zero: definition</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/159" title="net zero via expanding forests">net zero: forests</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/148" title="is nuclear the answer?">nuclear</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/160" title="should i offset my flight?  [or other purchase]">offsets</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/165" title="the periodic table is handy to compute these quantities">periodic table</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/107" title="oppose subsidies and LNG buildout; support renewables">policy steps</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/155" title="we express such small fractions in parts per million, or 'ppm'">ppm units</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/191" title="solar panel waste is not problematic">solar panel waste</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/67" title="*renewables are not growing fast enough to reduce emissions*">status: current</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/178" title="where we are heading">status: projected</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/56" title="until we reach zero emissions, there will be no so called "new normal"">thermal equilibrium</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/94" title="climate will continue to worsen many problems">threat multiplier</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/60" title="tipping points: no guarantee that we can undo what we set in motion">tipping points</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#773cad" href="#/58" title="climate scientists are nearly unanimous on these basics">united on the basics</a></p><p style="margin:0;padding:0"><a style="margin:0;padding:0;color:#42affa" href="#/153" title="watt is a unit of power, ie energy per time">watts vs kwh</a></p></div></pre><aside class="notes"><pre ></pre></aside></section>
+<section ><pre >my other talks
+
+existing:
+- coding for everyone
+- knot magic, knot math [for kids]
+planned:
+- organic food
+- biodiversity
+- household toxics
+- and things that i know even less about  : )
+email john@wetalkscience.org to be notified when planned
+   talks are ready</pre><aside class="notes"><pre ></pre></aside></section>
+<section ><pre >foundation for discussion
+
+- because of social media silos and search engine filter
+   bubbles, most of us are not challenged with opposing
+   views on the internet
+- so there's no substitute for talking to folks directly
+- and that makes this gathering a precious opportunity.
+- no one is expert on everything, we can all learn from each
+   other.
+- so let's muster whatever humility we can,
+- listen respectfully, try to understand each other,
+- and try to be brief so we all get lots of chances to
+   speak.</pre><aside class="notes"><pre ></pre></aside></section>
+<section ><section ><pre >take action (displayed at the end, and on the handout)
+
+write (local reps listed)
+join (natl, local groups, eg EmpowerNJ or FaCT depending on
+   audience)
+attend (upcoming local events listed)
+and tell your friends!
+send me ideas to improve this talk: john@wetalkclimate.org
+(and the url of these slides as a qr-code)</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >extra_slides
+
+the following slides are not part of the basic talk, but may
+   be useful to answer questions or to customize the talk.
+watch the arrows in the lower right--sometimes they will
+   indicate that u can arrow down for images.</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >for more info
+
+actions to take at climatechangemakers.org
+country progress info at climateactiontracker.org
+solutions info at drawdown.org
+IPCC reports at IPCC.ch
+UN climate change intro page
+   www.un.org/en/climatechange/what-is-climate-change
+climate basics at climateprimer.mit.edu
+data at OurWorldInData.org
+myths debunked at skepticalscience.com</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >the current climate change is not natural
+
+extremes have occurred naturally in the remote past
+- palm trees have grown in the arctic
+- NYC has been under 200ft of ice
+but today, moving toward either of these extremes would
+   threaten our civilization, and we would work urgently to
+   find and fix the cause.  we know our fossil fuel use is
+   causing the current warming.
+but it’s not just how hot, but how fast: rapid temp changes
+   in the geological past caused mass extinctions because
+   many species cudnt adapt fast enough.</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/ipcc-paleoclimateRefPeriods-IPCC_AR6_WGI_TS_Box_2_Figure_1.png"></img><p style="font-size:0.5em"><a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1F59D76B1C6876F25902D09A74C34634/9781009157889c1_147-286.pdf/framing-context-and-methods.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but today, moving toward either of these extremes would threaten our civilization, and we would work urgently to find and fix the cause.  we know our fossil fuel use is causing the current warming.</p></aside></section></section>
+<section ><section ><pre >what if politics is not my area?
+
+great, then we need whatever you do, so that Making
+   Government Work is the party everyone wants to be at.
+you can help transform Making Government Work to be fun loud
+   colorful cool intriguing--whatever your angle, we need
+   you.  and your friends!</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >how can we persist in activism?
+
+find fellow activists who give you joy
+appreciate your impact
+- what you learned
+- others you educated
+- links you identified
+- reputations you altered
+take time to thank your companions
+and sometimes be thanked
+take breaks
+and, now and then, win</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >ghgases triple the energy we get from the sun
+
+earth's surface gets twice as much energy from greenhouse
+   gases as directly from the sun, partly because the
+   atmosphere radiates 24/7, while the Sun shines only part
+   of the time.</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/noaa-earthEnergyBalance-file-20241027-15-yzt8ie.avif"></img><p style="font-size:0.5em"><a href="https://theconversation.com/microplastics-promote-cloud-formation-with-likely-effects-on-weather-and-climate-240192">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >earth's surface gets twice as much energy from greenhouse gases as directly from the sun, partly because the atmosphere radiates 24/7, while the Sun shines only part of the time.</p></aside></section></section>
+<section ><section ><pre >electromagnetic spectrum
+</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-emSpectrum-1104px-Electromagnetic_spectrum,_NASA_illustration.jpg"></img><p style="font-size:0.5em"><a href="https://commons.wikimedia.org/wiki/File:Electromagnetic_spectrum,_NASA_illustration.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >electromagnetic spectrum</p></aside></section></section>
+<section ><section ><pre >national gov [as of mid2024]
+
+the democrats .say. that climate is important, and they even
+   spent significantly with the IRA;
+but our democratic president is approving fossil fuel
+   projects even faster than his republican predecessor, an
+   "all of the above" approach.
+the republicans are more honest about embracing the fossil
+   fuel industry, wanting to repeal the modest progress
+   we've made, and "drill baby drill".
+but regardless of the red or blue politics where you live,
+   you can have an impact, and we all need each other to do
+   this.</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >NJ state gov [as of mid2024]
+
+Energy_Master_Plan comments due June12
+Triennium 2 Utility Hearings:
+Every three years, utilities in New Jersey are required to
+   propose programs that reduce energy use and carbon
+   emissions.
+Tell your utility company at the Triennium 2 Hearings: we
+   should not be using taxpayer money to invest in new gas!
+(this slide should be updated with upcoming actions)</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >is hydrogen the answer?
+
+- hydrogen isnt an energy source, but rather a way to store
+   energy.  it must be produced somehow.
+- 80% of current hydrogen production is "gray", made from
+   methane by a very dirty process that emits CO<sub>2</sub>.
+- green hydrogen (via electrolysis) is very energy
+   intensive, and thus expensive
+- water is fully oxidized hydrogen, so it takes much energy
+   to un-oxidize it via electrolysis or any technique
+- expected future price of green hydrogen was recently
+   revised upward
+- green hydrogen competes for limited renewable energy, and
+   the replacement energy today is likely from fossil fuels
+- hydrogen used in fuel cells produces just water as a waste
+   product
+- but hydrogen that is burned produces NOx pollutants
+- without tight regulations, hydrogen could be worse for
+   climate than coal
+    - by slowing methane conversion
+    - by increasing water vapor in the stratosphere
+- IRA includes billions for seven "hydrogen hubs" including
+   a mid-Atlantic hub in NJ/PA/DE</pre><aside class="notes"><pre >--</pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/acp-ocko-hydrogenClimateConseqs-22-9349-2022-avatar-web.png"></img><p style="font-size:0.5em"><a href="https://acp.copernicus.org/articles/22/9349/2022/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- without tight regulations, hydrogen could be worse for climate than coal</p></aside></section></section>
+<section ><section ><pre >is nuclear the answer?
+
+- history of cost overruns and missed deadlines
+- cooling water: levels are dropping and temps rising
+- target for terrorism, eg zaporizhzhia in ukraine
+- embrittlement, eg Palisades in MI
+- recent AI data center announcements, eg tmi unit 1,
+   involve inexperienced operators or experimental 'smr'
+   reactors unlikely to materialize, but distract from the
+   fact that AI is currently powered by coal and gas
+- nuclear rebirth is unlikely, but may be an expensive
+   distraction</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >ethanol
+
+- corn captures less than 2% of sunlight; solar panels over
+   25%
+- subsequent conversion makes ethanol even less efficient
+- so an acre of solar panels is equivalent to over 20 acres
+   of corn...for 30 years
+- much cheaper and safer to generate and move electrons than
+   molecules</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >topic nursery 1: ideas for slides
+
+proxies of past climate
+- how we know about paleoclimate
+greenhouse gases can worsen storms?  the causes of weather
+EVs vs gas vehicles
+- EVs are cleaner even if the electricity mix is very dirty
+- upfront vs per-mile [operational] vs lifetime emissions
+misinformation and disinformation
+- we may be innocently misinformed due to disinformation
+- disinformation is deliberate, and lavishly funded by
+   industry
+- and climate is especially inconvenient for those who
+   oppose "world government"--or all government
+- but we do not have the luxury for so many of us to
+   continue being wrong about climate
+- we need to genuinely listen and understand opposition
+   views
+- and learn to redirect that thinking in climate-positive
+   ways
+psychology of climate targets
+- 1.5C vs sea level vs restore our atmosphere
+industry smokescreens
+- young forests
+- "chemical recycling" of plastic; mass balance accounting
+- jet fuel from algae (ads pulled in canada)
+degrowth
+- embodied or "upfront" carbon vs operational carbon
+- using less stuff should be a source of pride</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >topic nursery 2: ideas for slides
+
+reduce, reuse, or we lose
+- recycling of glass metal paper are great, but not plastic
+- "chemical recycling" of plastic is mostly incineration
+nj is uniquely vulnerable to drought in the northeast
+- threatens water supply
+- threatens agriculture
+- heightens forest fire risk
+- reduces cooling capacity of nuclear and fossil power
+   plants, threatening curtailment
+- not just due to sandy soils of south jersey
+impact of republican trifecta
+- IRA benefits mostly red districts, garnering support
+   there.
+- business needs to plan, may oppose clawback of incentives.
+- the next IRA will likely be delayed.
+- env justice, eg Challenge Grants [?], may not survive.
+- china is ready to lead internationally, eg noaa</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/climateCentral-2020Drought_en_title_lg.jpg"></img><p style="font-size:0.5em"><a href="https://www.climatecentral.org/graphic/vulnerability-to-drought">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >nj is uniquely vulnerable to drought in the northeast</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/nytimes-usClimateRisksByCounty-interactive.png"></img><p style="font-size:0.5em"><a href="https://www.nytimes.com/2024/01/31/learning/lesson-plans/teach-about-climate-change-with-30-graphs-from-the-new-york-times.html">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- not just due to sandy soils of south jersey</p></aside></section></section>
+<section ><section ><pre >topic nursery 3: ideas for slides
+
+what is the current global mean temperature anomaly?
+- no one really knows!  there's no standard measure
+- normally use a moving window, so need to estimate future
+   temps
+- most folks use 1.2 or 1.3C as current global mean
+   temperature anomaly, but nervously watch records being
+   broken by record amounts
+1.5C is arbitrary
+- paris 2015 set goal of below 2C
+- island nations pushed hard for 1.5
+- but had we known earlier what wud happen now at 1.25ish,
+   we'd hav set sub-1.2
+directing hurricanes
+- we have the technology to unleash vast energy from a
+   single point via nuclear weapons
+- but once that energy is released, we cannot direct the
+   blast in any way
+- hurricanes involves xx times the energy of a fusion bomb,
+   distributed in a storm hundreds of miles across
+- and if we cud somehow direct such a beast, it would
+   require vast energy to appreciably alter the direction of
+   that much mass
+- this isnt just a job for 'advanced' technology--it's
+   science fiction
+- there is 'just. no. way.'</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >watt is a unit of power, ie energy per time
+
+- 1 watt is 1 kwh [of energy] per 1000 hrs [of time]
+- like 1 knot is 1 nautical mile per hour, so a nautical
+   mile is a "knot-hour"
+- the metric energy unit is the joule: a watt is one joule
+   per second, but we dont see joules outside surge
+   protectors, which are rated in kilojoules
+- the more familiar unit of energy is the dietetic calorie,
+   which is 4184 joules
+- joules are small, the grams of the energy realm</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >gardening impacts
+
+- heatwaves
+- + increasing variability of rainfall
+- = more frequent drought
+- and trickier timing of early season plantings and pre-
+   frost harvests
+- in 2023, usda updated its hardiness zones
+- sequestering carbon improves the soil</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/usda-hardinessZones-nj-NJ300_HS.png"></img><p style="font-size:0.5em"><a href="https://storymaps.arcgis.com/stories/9ee0cc0a070c409cbde0e3a1d87a487c">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- in 2023, usda updated its hardiness zones</p></aside></section></section>
+<section ><section ><pre >we express such small fractions in parts per million, or 'ppm'
+
+rather than saying "1/36 of 1%", we say 280ppm
+we use parts-per-hundred all the time--we call it "percent".
+So ppm allows us to express even smaller fractions.
+280ppm is more compact than "1/36 of 1%", and more readable
+   than 0.028%</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >climate is complex
+
+- for example, more CO<sub>2</sub> could have little effect because
+   maybe the atmosphere is already SATurated with CO<sub>2</sub> so
+   more wud have a diminishing effect.
+- OR more CO<sub>2</sub> could have little effect because maybe the
+   part of the outgoing IR spectrum that the blanketing CO<sub>2</sub>
+   absorbs overlaps with that of some other greenhouse gas
+- in fact, more CO<sub>2</sub> could EVEN have a net COOLing effect if
+   it caused fewer high clouds [which mainly trap heat] or
+   more low clouds [which mainly reflect sunlight]</pre><aside class="notes"><pre >--</pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/unigal-saturationCurve-wtcRemovedSomeText.jpg"></img><p style="font-size:0.5em"><a href="https://unigal.mx/concepto-de-magnetizacion-o-curva-de-saturacion-curva-bh/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- for example, more co2 could have little effect because maybe the atmosphere is already SATurated with co2 so more wud have a diminishing effect.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikimedia-Atmospheric_Transmission.png"></img><p style="font-size:0.5em"><a href="https://courses.seas.harvard.edu/climate/eli/Courses/global-change-debates/Sources/CO2-saturation/more/Zhong-Haigh-2013.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- OR more co2 could have little effect because maybe the part of the outgoing IR spectrum that the blanketing co2 absorbs overlaps with that of some other greenhouse gas</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/liverpoolAcUk-cloudsHiVsLow-file-20200709-87080-1iac67g-2379009146.png"></img><p style="font-size:0.5em"><a href="https://phys.org/news/2020-09-clouds-piece-climate-puzzle.html">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- in fact, more co2 could EVEN have a net COOLing effect if it caused fewer high clouds [which mainly trap heat] or more low clouds [which mainly reflect sunlight]</p></aside></section></section>
+<section ><section ><pre >more about models
+
+modeling teams take different approaches; this is part of a
+   table of 23 models in the 4th IPCC report; the IPCC is a
+   UN agency that summarizes our knowledge of climate change
+   every few years.
+each model is used only after it can "predict" the climate
+   of the past
+but even taken together, the latest models have known issues
+   and errors, which highlight areas of poor understanding,
+   and serve to focus data collection</pre><aside class="notes"><pre >--</pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/ipcc_-modelFeatures-ar4wg1ch8p9.png"></img><p style="font-size:0.5em"><a href="https://www.IPCC.ch/site/assets/uploads/2018/02/ar4-wg1-chapter8-1.pdf#page=9">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >modeling teams take different approaches; this is part of a table of 23 models in the 4th IPCC report; the IPCC is a UN agency that summarizes our knowledge of climate change every few years.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/cb-modelsVsObs.png"></img><p style="font-size:0.5em"><a href="https://www.carbonbrief.org/qa-how-do-climate-models-work/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >each model is used only after it can "predict" the climate of the past</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/ipcc_-modelErrors-ar4wg1ch8p22.png"></img><p style="font-size:0.5em"><a href="https://www.IPCC.ch/site/assets/uploads/2018/02/ar4-wg1-chapter8-1.pdf#page=22">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but even taken together, the latest models have known issues and errors, which highlight areas of poor understanding, and serve to focus data collection</p></aside></section></section>
+<section ><section ><pre >attribution: how much does climate explain?
+
+we can run a model at current CO<sub>2</sub> level many times to find
+   how likely an event is, vs at preindustrial CO<sub>2</sub> level
+many but not all extremes have been linked to climate change</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/copernicus-pnw2021heatwaveAttribution.png"></img><p style="font-size:0.5em"><a href="https://esd.copernicus.org/articles/13/1689/2022/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >we can run a model at current co2 level many times to find how likely an event is, vs at preindustrial co2 level</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/ucs-extremeWeatherLinksToClimateVary.jpg"></img><p style="font-size:0.5em"><a href="https://www.ucsusa.org/resources/are-humans-major-cause-global-warming">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >many but not all extremes have been linked to climate change</p></aside></section></section>
+<section ><section ><pre >net zero via expanding forests
+
+but major forests are becoming net sources of carbon
+- amazon due to setting fires for beef and soybean
+- boreal (canada and russia) due to wildfires and expanding
+   pest range
+our eastern forests are relatively stable (RIP Ash and
+   Hemlock) but the Forest Service is seeking explicitly to
+   reduce the amount of mature forest on public lands
+even if all tropical land area was completely covered in
+   tree plantations, it would sequester the equivalent of
+   just 1.7 years of global emissions.
+and we can't wait the decades it would take for those trees
+   to grow to maturity.
+often too few tree species are planted, reducing diversity,
+   especially when converting grasslands to forest.
+yes we should plant trees
+   and absolutely stop cutting mature forest, both for
+   climate and for biodiversity (another major crisis).</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/cc-amazon-fires-xinguRiver-6283416535_eb67c3aa30_o.jpg"></img><p style="font-size:0.5em"><a href="https://www.nature.com/articles/s41586-021-03629-6.epdf?sharing_token=zBCmabiTvO790Xb-f3EeutRgN0jAjWel9jnR3ZoTv0NILaci0q8CXtVe4JKM-xF0Z0ZQpmJpnpSclAjJeIV-vCjviXK_Mb9hvvU5C3CiJVg6fV-bjYVD4wv7oJn2iiSsIt7ZgIq0Wzlc8IsWp8lUWI6Ld44b1C8-SSR5_2cfu7t0VvqVxPpufNlKdhnKlkjZjIP8CFhdk0BnFN-X6-ODKMrZ0vCMCUd8rwSE-VU-UQw%3D&tracking_referrer=www.theguardian.com">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- amazon due to setting fires for beef and soybean</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/icn-usfsYoungForestInKentucky-DeforestationDanielBooneKY750px.png"></img><p style="font-size:0.5em"><a href="https://insideclimatenews.org/news/05032023/kentucky-old-trees-young-forest-carbon-storage/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >our eastern forests are relatively stable (RIP Ash and Hemlock) but the Forest Service is seeking explicitly to reduce the amount of mature forest on public lands</p></aside></section></section>
+<section ><section ><pre >should i offset my flight?  [or other purchase]
+
+"carbon offsets", or forest "set-asides", is an unregulated
+   industry rife with documented abuses.
+operators overstate likelihood of cutting forest,
+sell the promise not to cut,
+and may cut later anyway, or the forest may burn
+so consider donating your offset money to a group pushing to
+   reduce emissions</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >carbon capture and storage ("CCS"): the Petra Nova example
+
+"CCS", carbon capture and storage, would permanently store
+   CO<sub>2</sub>, promising to produce "carbon-neutral oil"
+so far, CCS is a trail of failed and failing projects,
+   expensive and polluting, nowhere near the needed scale.
+Petra Nova coal-fired generator in Texas
+captures 90% of CO<sub>2</sub> when fully operational
+but just 70% uptime
+used 38 MW of uncaptured power to capture CO<sub>2</sub> from 240 MW
+operates on just 6% of the site's 3700MW total generation
+hasn't released data to allow independent verification
+and leaks from upstream coal mine and downstream pipelines.
+and the captured CO<sub>2</sub> is used to increase output from an oil
+   well, more than negating the CO<sub>2</sub> stored.
+cost $1billion
+but several years into the project, the parent company sold
+   its 50% stake for less than 1% of the project cost.
+but Petra Nova is a success story among yet bigger failures
+   in part because it hasn't been abandoned.</pre><aside class="notes"><pre >--</pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikimedia-W.A._Parish_Generating_Plant_Aerial.jpg"></img><p style="font-size:0.5em"><a href="https://ieefa.org/resources/ill-fated-petra-nova-ccs-project-nrg-energy-throws-towel">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >Petra Nova coal-fired generator in Texas</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-ccs-petranova_math.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >hasn't released data to allow independent verification</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/ieefa-CarbonCaptureAndMethaneInfographic_0.png"></img><p style="font-size:0.5em"><a href="https://ieefa.org/resources/carbon-captures-methane-problem">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and leaks from upstream coal mine and downstream pipelines.</p></aside></section></section>
+<section ><section ><pre >CDR vs CCS (carbon capture and storage)
+
+both generally inject CO<sub>2</sub> underground, but CCS operates
+   where fossil fuels are burned.
+most CCS projects inject CO<sub>2</sub> to extract more oil, to pay for
+   the capture tech
+but that oil, when burned, negates the CO<sub>2</sub> captured.
+it's challenging to find a geology to hold CO<sub>2</sub>; one project
+   unintentionally raised the ground nearly an inch,
+   cracking buildings.
+others have leaked, usually via abandoned wells
+of which there are millions in the US.
+since we can't inject just anywhere, pipelines are needed.
+CDR at scale would require 65,000 miles of CO<sub>2</sub> pipelines in
+   the US by 2050.
+existing fossil fuel pipelines are too weak to hold CO<sub>2</sub>.
+CO<sub>2</sub> pipeline rupture has sickened people and hindered gas-
+   powered vehicles, even a mile from the rupture.
+No company is prepared to underwrite the permanent storage
+   that CCS projects promise, leaving that risk to
+   taxpayers.</pre><aside class="notes"><pre >--</pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/shankariasParliament.com-ccs-and-cdr.jpg"></img><p style="font-size:0.5em"><a href="https://www.shankariasparliament.com/uploads/files/ccs-and-cdr.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >both generally inject co2 underground, but CCS operates where fossil fuels are burned.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/cvdior.co.id-eor-ENHANCED-OIL-RECOVERY-EOR-METHODS-CONCEPTS-AND-MECHANISMS.png"></img><p style="font-size:0.5em"><a href="https://cvdior.co.id/wp-content/uploads/2017/05/ENHANCED-OIL-RECOVERY-EOR-METHODS-CONCEPTS-AND-MECHANISMS.png">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >most CCS projects inject co2 to extract more oil, to pay for the capture tech</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/earthdoc-surfaceUpliftFromCo2Storage.png"></img><p style="font-size:0.5em"><a href="https://www.earthdoc.org/content/papers/10.3997/2214-4609.20131984">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >it's challenging to find a geology to hold co2; one project unintentionally raised the ground nearly an inch, cracking buildings.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/icn-orphanedWell-oilCityLouisiniana-GettyImages-1251484137.jpg"></img><p style="font-size:0.5em"><a href="https://pubs.acs.org/doi/10.1021/acs.est.1c02234">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >others have leaked, usually via abandoned wells</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/edf-us-orphanWells.png"></img><p style="font-size:0.5em"><a href="https://pubs.acs.org/doi/10.1021/acs.est.1c02234">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >of which there are millions in the US.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/netzeroamerica-summary-p43-pipelines.png"></img><p style="font-size:0.5em"><a href="https://netzeroamerica.princeton.edu/img/Princeton%20NZA%20FINAL%20REPORT%20SUMMARY%20(29Oct2021).pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >CDR at scale would require 65,000 miles of co2 pipelines in the US by 2050.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/eeia-atScaleDeploymentOfCCUS-ch6-dontReuseGasPipelines.png"></img><p style="font-size:0.5em"><a href="https://www.eeia.org/post/CCUS-Pipeline-Transport-Meeting-the-Dual-Challenge.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >existing fossil fuel pipelines are too weak to hold co2.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/huffpost-satartia-2fotos-warningSign-piplineRupture.png"></img><p style="font-size:0.5em"><a href="https://www.commondreams.org/news/co2-pipeline-canceled">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >co2 pipeline rupture has sickened people and hindered gas-powered vehicles, even a mile from the rupture.</p></aside></section></section>
+<section ><section ><pre >key insight is that burning fossil fuels causes "climate pollution"
+
+traditionally "pollution" is contaminants that can be
+   removed, either by cleaning the incoming fuel, or
+   "scrubbing" the outgoing exhaust.  but exhaust CO<sub>2</sub> is not
+   a contaminant at all, it's an essential product of
+   burning, and so it comprises nearly all the waste from
+   combustion
+we think of gases as having negligible weight, but burning a
+   gallon of gasoline, no matter how high octane, generates
+   about 20lbs of CO<sub>2</sub>, roughly a pound every mile we drive.
+there is no way to get the energy from hydrocarbons without
+   oxidizing the carbon, no matter how 'clean' the fuel
+   (that's why burning requires oxygen)
+so "climate pollution" is not about contaminants at all.
+this is a new meaning for "pollutant".</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-carExhaustGases-epaData-zoom.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >traditionally "pollution" is contaminants that can be removed, either by cleaning the incoming fuel, or "scrubbing" the outgoing exhaust.  but exhaust co2 is not a contaminant at all, it's an essential product of burning, and so it comprises nearly all the waste from combustion</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/dealerinspire-octaneButtons-shutterstock_414453289-2332725231.jpg"></img><p style="font-size:0.5em"><a href="https://di-uploads-pod5.dealerinspire.com/thompsonsalescompany/uploads/2020/12/shutterstock_414453289.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >we think of gases as having negligible weight, but burning a gallon of gasoline, no matter how high octane, generates about 20lbs of co2, roughly a pound every mile we drive.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/wtc-combustionFormula.png"></img><p style="font-size:0.5em"><a href="wtc">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >there is no way to get the energy from hydrocarbons without oxidizing the carbon, no matter how 'clean' the fuel (that's why burning requires oxygen)</p></aside></section></section>
+<section ><section ><pre >more CCS science
+
+CH<sub>2</sub> + O<sub>2</sub> + spark -> CO<sub>2</sub> + H<sub>2</sub>O + energy
+- energy is needed to cool and compress the resulting CO<sub>2</sub>
+   gas, and pipelines must be stronger than for oil or
+   methane
+- burning produces water, which must be removed to avoid
+   carbonic acid corrosion in pipelines (rainwater is dilute
+   carbonic acid, pH 5.6--quite apart from acid rain--not
+   neutral pH 7)
+- the waste is triple the fuel weight
+40gtpa CO<sub>2</sub> / 8b people = 5t CO<sub>2</sub> per person yearly
+    gtpa is gigatons per annum; giga means billion
+when you hear about using CO<sub>2</sub> to make products, eg
+   carbonated beverages or furniture, think about using five
+   tons every year--just you.
+and using CO<sub>2</sub> in products takes much energy to get it to
+   react--that's why it so stable, lasting centuries in the
+   atmosphere.</pre><aside class="notes"><pre >--</pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/ptableViaWtc-combustionElements.png"></img><p style="font-size:0.5em"><a href="https://theconversation.com/using-captured-co-in-everyday-products-could-help-fight-climate-change-but-will-consumers-want-them-158683">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- the waste is triple the fuel weight</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/theconversation-usingCo2InProducts-file-20210417-13-1f3fcmx.avif"></img><p style="font-size:0.5em"><a href="https://theconversation.com/using-captured-co-in-everyday-products-could-help-fight-climate-change-but-will-consumers-want-them-158683">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >when you hear about using co2 to make products, eg carbonated beverages or furniture, think about using five tons every year--just you.</p></aside></section></section>
+<section ><section ><pre >the periodic table is handy to compute these quantities
+</pre><aside class="notes"><pre >--</pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/ptable.png"></img><p style="font-size:0.5em"><a href="https://ptable.com">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the periodic table is handy to compute these quantities</p></aside></section></section>
+<section ><section ><pre >geoengineering: might Solar Radiation Management (SRM) help?
+
+SRM is reflecting sunlight before it reaches earth's surface
+- eg "cloud brightening" by launching fine salt into the
+   stratosphere
+- releasing many tiny particles is not undoable
+  (tho some types may wash out of atmosphere)
+- negative effects elsewhere
+- other unintended side effects
+- could allow us to push 'carbon debt' beyond what we can
+   draw down
+- geoengineering is how we got into this mess
+- tho need to research techniques and maybe "antidotes"</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >types of geoengineering
+
+carbon dioxide removal: not [yet?] scalable
+solar radiation management: controlling sunlight before it
+   reaches earth
+eg stratospheric sulfate aerosols: create a global dimming
+eg chemtrailing: using reflective nano-materials (aerosols)
+   to reflect sunlight</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >hoboken
+
+hoboken has spent over $100m to capture ~3m gallons of
+   stormwater and release it after the storm.
+but during Sandy, 500m gallons of water was sitting on
+   Hoboken, to a depth of 6 feet in the lowest-lying areas.</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/cityOfHoboken-nwResiliencyParkStats-poster.png"></img><p style="font-size:0.5em"><a href="https://www.hobokengirl.com/hoboken-northwest-resiliency-park/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >hoboken has spent over $100m to capture ~3m gallons of stormwater and release it after the storm.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/njspotlightnews-Hoboken-Superstorm-Sandy-flooding-flood.jpg"></img><p style="font-size:0.5em"><a href="https://www.hobokengirl.com/hoboken-northwest-resiliency-park/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but during Sandy, 500m gallons of water was sitting on Hoboken, to a depth of 6 feet in the lowest-lying areas.</p></aside></section></section>
+<section ><section ><pre >Already...
+
+major insurers are pulling out of flood- and fire-prone
+   areas due to "rapidly growing catastrophe exposure" and
+   raising rates elsewhere
+much of the immigration from Central America is climate-
+   driven
+ocean acidification has impacted the shellfish industry in
+   the Pacific Northwest
+the snow crab harvest has been cancelled for two consecutive
+   years due to population crash</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/apnews-california-wildfire-insurance-sansPhoto.png"></img><p style="font-size:0.5em"><a href="https://apnews.com/article/california-wildfire-insurance-e31bef0ed7eeddcde096a5b8f2c1768f">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >major insurers are pulling out of flood- and fire-prone areas due to "rapidly growing catastrophe exposure" and raising rates elsewhere</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/bostonUniv-centAm-climateImpacts-Chart-1-636x365.png"></img><p style="font-size:0.5em"><a href="https://www.bu.edu/gdp/2023/11/27/6-charts-on-climate-impacts-in-6-central-american-and-caribbean-countries/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >much of the immigration from Central America is climate-driven</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/noaa-Shell_Treatment_v2.png"></img><p style="font-size:0.5em"><a href="https://www.fisheries.noaa.gov/feature-story/how-will-changing-ocean-chemistry-affect-shellfish-we-eat">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >ocean acidification has impacted the shellfish industry in the Pacific Northwest</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/noaa-Bering-Sea-snow-crab.jpg"></img><p style="font-size:0.5em"><a href="https://www.fisheries.noaa.gov/feature-story/research-confirms-link-between-snow-crab-decline-and-marine-heatwave">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the snow crab harvest has been cancelled for two consecutive years due to population crash</p></aside></section></section>
+<section ><section ><pre >NASA projections of global climate change in the US:
+
+- sea level to rise 1 to 6.6 feet by 2100
+- hurricane storm intensity and rainfall rates to increase
+- droughts in the Southwest to become more intense
+- heat waves to become more intense
+- by 2050, the land consumed by wildfires in Western states
+   to further increase two to six times.</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >impacts
+
+now
+later</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/wri-whereWeAreNow-23-03-15-IPCC-report_Insights-global-warming-illustration.png"></img><p style="font-size:0.5em"><a href="https://www.wri.org/insights/2023-ipcc-ar6-synthesis-report-climate-change-findings">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >now</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/wri-futureImpacts-23-03-15-IPCC-report_Insights-risks-rising-temps.png"></img><p style="font-size:0.5em"><a href="https://www.wri.org/insights/2023-ipcc-ar6-synthesis-report-climate-change-findings">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >later</p></aside></section></section>
+<section ><section ><pre >In other nations, the projections are yet worse
+
+Global irrigated food production will drop by 6% by 2100;
+   for China, 10%
+Severe food insecurity will rise up to 60% in much of Africa
+   and Central America
+Rising migration, rising conflict over water resources</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/nature.com-s41598-024-65274-z-fig1.png"></img><p style="font-size:0.5em"><a href="https://www.nature.com/articles/s41598-024-65274-z/figures/1">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >Global irrigated food production will drop by 6% by 2100; for China, 10%</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/nature.com-s41598-024-65274-z-fig2.png"></img><p style="font-size:0.5em"><a href="https://www.nature.com/articles/s41598-024-65274-z/figures/2">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >Severe food insecurity will rise up to 60% in much of Africa and Central America</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/pacInst-waterConflictsByYear-Figure1_WCC_FactSheet.jpg"></img><p style="font-size:0.5em"><a href="https://pacinst.org/wp-content/uploads/2024/08/Water-Conflict-Chronology_Fact-Sheet.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >Rising migration, rising conflict over water resources</p></aside></section></section>
+<section ><section ><pre >previously obscure phenomena
+
+bomb cyclone / rapid intensification
+- Otis 2023: tropical storm to category 5 hurricane in less
+   than 24 hours
+atmospheric rivers
+- can carry more water than the Amazon River
+heat domes
+polar vortex instability
+high tide flooding
+subsurface marine heat waves
+clear air turbulence
+flesh-eating vibrio (20% fatal)
+thawing permafrost is releasing pathogens that haven't seen
+   daylight in thousands of years.
+fungal pathogens adapting to higher temperatures
+- threatens warm-blooded animals</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >and unprecedented events are happening--they dont yet have names
+
+2012 "Superstorm" Sandy was as wide as the entire East coast
+   of the US, 1000 miles
+Canada 2023 wildfire season was off the charts
+2023 global temperature anomalies
+2023jun19 Intense rain at high tide causes unprecedented
+   flood in AL--"compound event"
+2023nov16 No-name storm swamps South Florida with flooding,
+   high winds
+in the Carolinas where a storm that wasn’t even strong
+   enough to merit a name nonetheless dumped 18 inches of
+   rain in 12 hours</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/wikimedia-Sandy_2012-10-28_1600Z.jpg"></img><p style="font-size:0.5em"><a href="https://upload.wikimedia.org/wikipedia/commons/b/bd/Sandy_2012-10-28_1600Z.jpg">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >2012 "Superstorm" Sandy was as wide as the entire East coast of the US, 1000 miles</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/canada_wildfire_emissions_2023.png"></img><p style="font-size:0.5em"><a href="https://www.statista.com/chart/30230/cumulative-area-burned-wildfires-canada-and-10-year-average/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >Canada 2023 wildfire season was off the charts</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/miamiEdu-oceanHeatContentInHurrBirthRegion-ohc_mdr.png"></img><p style="font-size:0.5em"><a href="https://bmcnoldy.earth.miami.edu/tropics/ohc/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >2023 global temperature anomalies</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/wpri-fowlRiverFlooding.jpg"></img><p style="font-size:0.5em"><a href="https://duckduckgo.com/?q=Fowl+River+flood">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >2023jun19 Intense rain at high tide causes unprecedented flood in AL--"compound event"</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/miamiherald-nonameStormInSouthFlorida.png"></img><p style="font-size:0.5em"><a href="https://www.miamiherald.com/news/local/article281936518.html">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >2023nov16 No-name storm swamps South Florida with flooding, high winds</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/pbs-ncNonameStorm-2024-0917.jpg"></img><p style="font-size:0.5em"><a href="https://www.pbs.org/newshour/nation/5th-historic-flood-in-25-years-deluges-north-carolinas-coast">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >in the Carolinas where a storm that wasn’t even strong enough to merit a name nonetheless dumped 18 inches of rain in 12 hours</p></aside></section></section>
+<section ><section ><pre >el niño occurs atop a higher global mean temperature
+
+but didn't el niño cause the 2023 anomalies, not climate?
+   2016 was an el niño year too, but 2023's el niño was atop
+   a higher global mean temperature
+el niño's are part of a natural cycle, but climate change is
+   making them more intense</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-oceanicNinoIndex.png"></img><p style="font-size:0.5em"><a href="https://svs.gsfc.nasa.gov/30847">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >but didn't el niño cause the 2023 anomalies, not climate?  2016 was an el niño year too, but 2023's el niño was atop a higher global mean temperature</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/skepticalscience-gmtEnso-allPoints-ENSO_Temps_2015_500pix.gif"></img><p style="font-size:0.5em"><a href="https://skepticalscience.com/graphics.php?g=67">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >el niño's are part of a natural cycle, but climate change is making them more intense</p></aside></section></section>
+<section ><section ><pre >doomism is the new denial
+
+the same folks who yesterday said climate was a hoax or
+   nothing to worry about,
+are now saying it's too late to address climate.
+dont believe it--the more and the sooner we reduce
+   emissions, the better our future will be.</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >floodwaters ain't just water
+
+when you see urban flooding like this, think about the
+   industrial waste, raw sewage, and parasites in the water.</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/njspotlightnews-Hoboken-Superstorm-Sandy-flooding-flood.jpg"></img><p style="font-size:0.5em"><a href="https://www.hobokengirl.com/hoboken-northwest-resiliency-park/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >when you see urban flooding like this, think about the industrial waste, raw sewage, and parasites in the water.</p></aside></section></section>
+<section ><section ><pre >where we are heading
+
+so where are we headed?  globally CO<sub>2</sub> is still increasing,
+   tho maybe leveling off.
+US and Europe emissions have been dropping, whereas
+   developing nations have increased emissions, as we did
+   during our development, esp china, tho it may have
+   plateau'd, we'll see.
+current country pledges ("NDCs" under Paris) will lead us to
+   far exceed 1.5; we're headed for 2.7C by 2100
+country pledges over-rely on forest offsets and CO<sub>2</sub> removal,
+   and are not coordinated, adding up to an unrealistic area
+   of new forest
+and some countries are not on target to meet their pledges.</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/ourworldindata-annual-co2-emissions-per-country.svg"></img><p style="font-size:0.5em"><a href="https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >so where are we headed?  globally co2 is still increasing, tho maybe leveling off.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/icn-percapitaEmissionsTrendsByRegion-EmissionsChartCapita529px.png"></img><p style="font-size:0.5em"><a href="https://insideclimatenews.org/infographics/chart-which-country-emits-most-co2-person/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >US and Europe emissions have been dropping, whereas developing nations have increased emissions, as we did during our development, esp china, tho it may have plateau'd, we'll see.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/climateActionTracker-CAT-Thermometer-2023.12-4Bars-Annotation.png"></img><p style="font-size:0.5em"><a href="https://unfccc.int/news/full-ndc-synthesis-report-some-progress-but-still-a-big-concern">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >current country pledges ("NDCs" under Paris) will lead us to far exceed 1.5; we're headed for 2.7C by 2100</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/nature-cdrPledgesOverrelyOnLand-titleNabstract.png"></img><p style="font-size:0.5em"><a href="https://www.nature.com/articles/s41467-024-53466-0">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >country pledges over-rely on forest offsets and co2 removal, and are not coordinated, adding up to an unrealistic area of new forest</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/climateActionTracker-CAT-Thermometer-2023.12-4Bars-Annotation.png"></img><p style="font-size:0.5em"><a href="https://unfccc.int/news/full-ndc-synthesis-report-some-progress-but-still-a-big-concern">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and some countries are not on target to meet their pledges.</p></aside></section></section>
+<section ><section ><pre >limits of human lungs
+
+- humans cannot breath for long periods at 130-140F
+   depending on humidity
+- dry air is cooled in our lungs by evaporation
+- but if the air is already saturated, no evaporation is
+   possible
+- evaporation dehydrates us sooner, and there's a limit to
+   how fast the body can incorporate water, no matter how
+   fast we drink
+- neighborhoods that are mostly paved and have few trees can
+   be much hotter than the official high temperature
+- during the june2021 heatwave in Portland OR, temperatures
+   of 124F were measured on an officially 115F day</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >mitigation is cheaper than repeated recovery
+
+each unit of mitigation makes future recoveries less
+   frequent
+(need to find attempts to quantify)
+tho the cost-benefit comparison becomes irrelevant as we
+   move toward destabilizing famine and conflict</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >five key facts that everyone should know
+
+It’s real.
+It’s us.
+It’s bad.
+Scientists agree.
+There’s hope!</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >carbon footprint
+
+it was for health reasons that i mostly stopped eating meat
+my favorite food was sausage and peppers
+but i took the chance to ponder what i really loved
+and ended up choosing the roasted peppers, along with
+   tomato, eggplant, and onions, and dont get me started on
+   mushrooms
+and now i'm big on all different kinds of beans, that's my
+   main source of protein</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >carbon footprint, but don't stop there
+
+carbon footprint is overemphasized, but if ur so inclined,
+   the biggest footprint impacts are to reduce: the KIDS u
+   plan to have, the MEAT u eat, the food u WASTE, the
+   FLIGHTS u take, and the comMUTing u do.  tho kids also
+   motivate us to care about the planet's future.
+the climate impact of beef blows away all other foods
+also be aware that nj gas companies are offering discounted
+   hookups if enough neighbors switch from propane.
+   instead, electrify.
+and beFORE you need a new AC or furnace, consider a heat
+   pump.  utility rebates and tax credits can offset the
+   higher price.
+moving ur money can have a surprising impact
+assuming your bank funds fossil fuels, as all the big banks
+   do
+and dont miss a chance to magnify your impact by telling
+   others, because it's contagious.  BUT...go beyond
+   footprint!</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/physOrg-personalCarbonFootprint-actionsByImpact-pretty.jpg"></img><p style="font-size:0.5em"><a href="https://phys.org/news/2017-07-effective-individual-tackle-climate-discussed.html">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >carbon footprint is overemphasized, but if ur so inclined, the biggest footprint impacts are to reduce: the KIDS u plan to have, the MEAT u eat, the food u WASTE, the FLIGHTS u take, and the comMUTing u do.  tho kids also motivate us to care about the planet's future.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/ourworldindata-food-emissions-supply-chain-noCaption.svg"></img><p style="font-size:0.5em"><a href="https://ourworldindata.org/environmental-impacts-of-food">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the climate impact of beef blows away all other foods</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/radic-gasStoveFlame.png"></img><p style="font-size:0.5em"><a href="https://www.flickr.com/photos/26344495@N05/49059341077">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >also be aware that nj gas companies are offering discounted hookups if enough neighbors switch from propane.  instead, electrify.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/technofaq-geothermal-heat-pump.png"></img><p style="font-size:0.5em"><a href="https://technofaq.org/wp-content/uploads/2018/10/geothermal-heat-pump.png">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and beFORE you need a new AC or furnace, consider a heat pump.  utility rebates and tax credits can offset the higher price.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/projectDrawdown_emissionsReductions_moveUrMoney.png"></img><p style="font-size:0.5em"><a href="https://drawdown.org/sites/default/files/pdfs/Saving%20for%20the%20Planet_Drawdown%20Labs%20Report_0.pdf">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >moving ur money can have a surprising impact</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/fossilBanksDotOrg-topBanks.png"></img><p style="font-size:0.5em"><a href="https://www.fossilbanks.org/fossil-banks">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >assuming your bank funds fossil fuels, as all the big banks do</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/ssrn-fewerFlightsFromExample.png"></img><p style="font-size:0.5em"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3283157">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >and dont miss a chance to magnify your impact by telling others, because it's contagious.  BUT...go beyond footprint!</p></aside></section></section>
+<section ><section ><pre >more we can do
+
+we should state unequivocally that we must phase out fossil
+   fuels, as the IPCC has stated at last, tho most US
+   politicians havent acknowledged even this basic fact
+we can ban new fossil fuel infrastructure, which the UN secy
+   general here calls delusional.
+starting with no longer PERMitting new fossil fuel
+   infrastructure
+  that's right, NEW fossil fuel infra--a massive buildout of
+   new drilling, new pipelines, and new export terminals is
+   underway, infrastructure with a 40yr lifetime.
+  former pres. biden famously paused just the EXport permits
+   --conSTRUCtion of new export facilities was STILL being
+   permitted.
+we can stop utilities from lobbying against renewables
+- and we can align utility incentives with climate goals
+- we could collect a carbon fee and recycle the money to
+   households; 2/3 of households wud get back more than they
+   pay</pre><aside class="notes"><pre >--</pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/ipcc-cop28-transitioningAwayFrom.png"></img><p style="font-size:0.5em"><a href="https://news.un.org/en/story/2022/06/1120372">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >we should state unequivocally that we must phase out fossil fuels, as the IPCC has stated at last, tho most US politicians havent acknowledged even this basic fact</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/un-newFossilFuelFundingDelusional.png"></img><p style="font-size:0.5em"><a href="https://news.un.org/en/story/2022/06/1120372">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >we can ban new fossil fuel infrastructure, which the UN secy general here calls delusional.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/science-flaring-fracking_16x9.jpg"></img><p style="font-size:0.5em"><a >source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >starting with no longer PERMitting new fossil fuel infrastructure</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/globalEnergyInst-usLngTradeSince2000.png"></img><p style="font-size:0.5em"><a href="https://www.chron.com/business/energy/article/Slideshow-Five-LNG-export-terminals-now-14437665.php">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >. that's right, NEW fossil fuel infra--a massive buildout of new drilling, new pipelines, and new export terminals is underway, infrastructure with a 40yr lifetime.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/lng_by_permit_status.png"></img><p style="font-size:0.5em"><a href="https://www.symonspa.com/post/report-status-of-u-s-lng-export-permits-and-associated-greenhouse-gas-emissions">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >. former pres. biden famously paused just the EXport permits--conSTRUCtion of new export facilities was STILL being permitted.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/wapoHeadline-threeStatesBarredUtilitiesFromChargingCustomersForLobbying.png"></img><p style="font-size:0.5em"><a href="https://www.washingtonpost.com/politics/2023/06/21/three-states-just-barred-utilities-charging-customers-lobbying/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >we can stop utilities from lobbying against renewables</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/climateXchange-utilityReform-articleTitle.png"></img><p style="font-size:0.5em"><a href="https://climate-xchange.org/2022/11/how-utility-reform-can-align-profits-with-climate-goals/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- and we can align utility incentives with climate goals</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/congressDotGov-CarbonDividendAct.png"></img><p style="font-size:0.5em"><a href="https://www.congress.gov/bill/118th-congress/house-bill/5744/text">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- we could collect a carbon fee and recycle the money to households; 2/3 of households wud get back more than they pay</p></aside></section></section>
+<section ><section ><pre >health effects of air pollution
+
+the fossil fuel industry gets a huge indirect subsidy, by
+   not paying for the health effects of air pollution, both
+   INDOOR air: cooking with a gas stove can be as bad as
+   breathing secondhand cigarette smoke in terms of asthma-
+   causing nitrogen oxides, even in the bedrooms.
+  AND OUTDOOR air: here we see that heart-related ER visits
+   dropped 40% after shuttering a coal plant near
+   Pittsburgh.  Particulate pollution from cars and coal
+   kills 100,000 Americans a year through heart and lung
+   disease, 10 million people worldwide. That's more people
+   than are murdered, die in traffic accidents and drown,
+   combined.</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/science-nitrogenDioxideExposure-fig3.png"></img><p style="font-size:0.5em"><a href="https://insideclimatenews.org/news/17052024/california-gas-stove-warning-label-health-research/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the fossil fuel industry gets a huge indirect subsidy, by not paying for the health effects of air pollution, both INDOOR air: cooking with a gas stove can be as bad as breathing secondhand cigarette smoke in terms of asthma-causing nitrogen oxides, even in the bedrooms.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/iopDotOrg-shenangoShutdown-ErVisitsOverTime.png"></img><p style="font-size:0.5em"><a href="https://iopscience.iop.org/article/10.1088/2752-5309/ace4ea">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >. AND OUTDOOR air: here we see that heart-related ER visits dropped 40% after shuttering a coal plant near Pittsburgh.  Particulate pollution from cars and coal kills 100,000 Americans a year through heart and lung disease, 10 million people worldwide. That's more people than are murdered, die in traffic accidents and drown, combined.</p></aside></section></section>
+<section ><section ><pre >the fossil fuel industry
+
+the reason we need to spend on adaptation is because we
+   didn't mitigate early enough.
+arguably we didn't mitigate early enough because fossil fuel
+   companies deliberately muddied the science.
+so the fossil fuel companies have knowingly done great
+   damage to our economy
+and cost some folks their lives
+and they continue to pedal the fiction of carbon capture</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/theguardian-misleadingFossilAds.avif"></img><p style="font-size:0.5em"><a href="https://www.theguardian.com/environment/2021/nov/18/the-forgotten-oil-ads-that-told-us-climate-change-was-nothing">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >arguably we didn't mitigate early enough because fossil fuel companies deliberately muddied the science.</p></aside></section></section>
+<section ><section ><pre >can one person make a difference?
+
+most folks dont live in a democratic country, and maybe cant
+   even express their opinion.
+even among democracies, America is uniquely influential
+   economically and militarily.
+and of course many Americans don't have time or motivation
+   for activism.
+so your activism speaks louder than you may realize
+and cutting emissions sooner impacts more of the coming
+   decades
+so we--right now--have great leverage.</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >what difference can my presence make?
+
+ur presence at an event validates the organizer and hosting
+   venue
+ur presence validates others who look like u in some way but
+   werent sure if they belonged there
+ur presence inspires younger folks who wanna be like u
+   someday
+and u can become a conduit for folks u know to get involved
+not to mention what ur actually learning or doing!</pre><aside class="notes"><pre ></pre></aside></section></section>
+<section ><section ><pre >how should we source energy?
+
+the sun, via solar and wind, is the most abundant energy
+   source; the circles show known reserves for the finite
+   sources [on the right], whereas the renewable sources [on
+   the left] will last forever.</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/supply_side_energy_reserves_fig2.jpg"></img><p style="font-size:0.5em"><a href="https://www.researchgate.net/publication/359276759_Update_2022_-_A_fundamental_look_at_supply_side_energy_reserves_for_the_planet">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the sun, via solar and wind, is the most abundant energy source; the circles show known reserves for the finite sources [on the right], whereas the renewable sources [on the left] will last forever.</p></aside></section></section>
+<section ><section ><pre >Battery minerals are not the new oil
+
+Even as battery demand surges, demand for mined minerals
+   could peak within a decade, and maybe allow us to avoid
+   mineral extraction altogether by 2050.
+We need to extract an amount of minerals much less than our
+   current yearly oil extraction--just once.
+Electrification will enable us to transition from a linear
+   extraction model to a circular loop.</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/rmi-batteryMineralLoop_exhibit1a.png"></img><p style="font-size:0.5em"><a href="https://blog.infodiagram.com/2022/06/presenting-circular-economy-models-ppt.html/comparing-linear-approach-vs-circular-economy">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >Even as battery demand surges, demand for mined minerals could peak within a decade, and maybe allow us to avoid mineral extraction altogether by 2050.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/rmi-batteryMineralLoop_exhibit1c.png"></img><p style="font-size:0.5em"><a href="https://blog.infodiagram.com/2022/06/presenting-circular-economy-models-ppt.html/comparing-linear-approach-vs-circular-economy">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >We need to extract an amount of minerals much less than our current yearly oil extraction--just once.</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/infodiagram-linearVsCircularEcon-comparing-linear-approach-vs-circular-economy-1024x576-1772470829.png"></img><p style="font-size:0.5em"><a href="https://blog.infodiagram.com/2022/06/presenting-circular-economy-models-ppt.html/comparing-linear-approach-vs-circular-economy">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >Electrification will enable us to transition from a linear extraction model to a circular loop.</p></aside></section></section>
+<section ><section ><pre >solar panel waste is not problematic
+
+- dwarfed by other waste streams
+- 90% of weight is recyclable; research continues into
+   recyclable chemistries
+- panels last too long to achieve economies of scale yet</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/scifdbk-solarPanelWaste-Global-cumulative-wastes-from-2016-to-2050.png"></img><p style="font-size:0.5em"><a href="https://science.feedback.org/review/solar-panels-produce-small-amount-waste-compared-other-sources/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- dwarfed by other waste streams</p></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/scifdbk-solarPanelWaste-PV-cell-diagram.png"></img><p style="font-size:0.5em"><a href="https://science.feedback.org/review/solar-panels-produce-small-amount-waste-compared-other-sources/">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >- 90% of weight is recyclable; research continues into recyclable chemistries</p></aside></section></section>
+<section ><section ><pre >the sun is the energy source that drives earth's climate
+
+we get .alot. of energy from the sun
+earth gets sunlight equal to yearlyWorldEnergyUse every hour
+in fact earth gets rid of most of the sun's energy
+via reflecting from clouds and ice, and radiating infrared
+you might think that getting rid of all of the sun's energy
+   wud make earth a ball of ice,
+but it wudnt, because the IR that earth radiates doesnt have
+   a straight shot to outer space,
+instead, it's absorbed and reradiated by those greenhouse
+   gases in the atmosphere.
+greenhouse gases cause IR energy to bounce around for awhile
+   before it leaves.
+it's this "IR pinball", along with the heat storage in ocean
+   and land, that moderates earth's climate
+global mean temperature is abt 60F, but if earth had no
+   greenhouse gases to absorb IR, global mean temperature
+   would be -18C=0F, so cold that the oceans would be frozen
+   to the bottom.
+so greenhouse gases are not bad--preindustrial greenhouse
+   gases were in a goldilocks zone.</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-eei.jpg"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/Earth's_energy_budget">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >the sun is the energy source that drives earth's climate</p></aside></section></section>
+<section ><section ><pre >energy balance
+
+as a result of this greenhouse gas "IR pinball", earth cud
+   get rid of all the sun's energy and still be comfortable.
+in fact, in order to remain at a constant temperature, earth
+   .needs. to get rid of all the sun's energy
+and that's just what happened during the preindustrial
+   equilibrium, there was no net energy gain.
+but now, as greenhouse gases rise, we are gaining energy
+   from the sun: 0.6wpm2 in 2009, roughly 4
+   totalGlobalNuclearWeaponYield's daily
+at an increasing rate: 1.1wpm2 in 2019</pre><aside class="notes"><pre ></pre></aside></section><section data-background-iframe=""><img class="r-stretch" data-src="imgs/nasa-eei.jpg"></img><p style="font-size:0.5em"><a href="https://en.wikipedia.org/wiki/Earth's_energy_budget">source</a><span style="padding:20px">       </span><a href="#/134">topics</a></p><aside class="notes"><p >energy balance</p></aside></section></section>
+      </div>
+    </div>
+
+    <script src="revealjs/dist/reveal.js"></script>
+    <script src="revealjs/plugin/notes/notes.js"></script>
+    <script src="revealjs/plugin/markdown/markdown.js"></script>
+    <script src="revealjs/plugin/highlight/highlight.js"></script>
+    <script src="revealjs/plugin/search/search.js"></script>
+    <script src="revealjs/plugin/zoom/zoom.js"></script>
+    <script src="revealjs/plugin/math/math.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        preloadIframes: true,  // johnS
+        //showNotes: true,     // johnS
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        katex: {
+          extensions: ['mhchem'],
+        },
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealSearch, RevealZoom, RevealMath.KaTeX ]
+      });
+    </script>
+  </body>
+</html>
+

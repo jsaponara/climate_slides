@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg  width="1000" height="750" xmlns="http://www.w3.org/2000/svg"><rect width="1000" height="750" x="0" y="0" fill="white"/>
+<path stroke="black" stroke-width="0.5" d="M140,150 h810M140,198 h810M140,246 h810M140,294 h810M140,342 h810M140,390 h810M140,438 h810M140,486 h810M140,534 h810M140,582 h810M140,630 h810"/>  <g font-size="40" fill="black" font-family="Liberation Sans,sans-serif" text-anchor="middle">
+ <switch>
+<text x="550" y="60" id="trsvg26-ja" systemLanguage="ja">人間が要因である地球温暖化に関する</text>
+<text x="550" y="60" id="trsvg26">Academic studies of scientific consensus</text>
+ </switch>
+ <switch>
+<text x="550" y="110" id="trsvg27-ja" systemLanguage="ja">科学的コンセンサスの学術研究</text>
+<text x="550" y="110" id="trsvg27">on human-caused global warming</text>
+ </switch>
+ <switch>
+<text transform="translate(80,400) rotate(-90)" id="trsvg31-ja" systemLanguage="ja">► コンセンサス ►</text>
+<text transform="translate(75,400) rotate(-90)" id="trsvg31">► Consensus ►</text>
+ </switch>
+<text x="75" y="162.25">100%</text><text x="75" y="210.25">90%</text><text x="75" y="642.25">0%</text>
+<!-- Consensus --><path fill="#77aa55" stroke="white" stroke-width="1" d="M170,630 v-465.6 h160 v465.6 z
+M370,630 v-480 h160 v480 z 
+M570,630 v-475.2 h160 v475.2 z
+M770,630 v-473.76 h160 v473.76 z
+"/> 
+<!-- Non-consensus --><path fill="#555555" stroke="white" stroke-width="2" d="M170,150 v14.2  h160 v-14.2 z
+M570,150 v4.8  h160 v-4.8 z 
+M770,150 v6.24 h160 v-6.24 z 
+"/>
+
+<g font-size="52" fill="white" transform="translate(0,350)"><text x="250" y="0">97%</text>
+<text x="450" y="0">100%</text>
+<text x="650" y="0">>99%</text><text x="850" y="0">98.7%</text></g>
+
+<g transform="translate(0,680)"><text x="250" y="0">Cook</text>
+<text x="250" y="45">(2016)</text>
+<text x="450" y="0">Powell</text>
+<text x="450" y="45">(2019)</text>
+<text x="650" y="0">Lynas</text><text x="650" y="45">(2021)</text>
+<text x="850" y="0">Myers</text><text x="850" y="45">(2021)</text></g>
+  </g>
+
+<rect width="800" height="480" x="150" y="150" stroke="#888888" stroke-width="1" fill="none"/></svg>
